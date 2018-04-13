@@ -7,7 +7,7 @@ Font-Face Icons
 	src:url('http://doublem.org/hira/lib/css/fonts/Icons.eot');
 	src:url('http://doublem.org/hira/lib/css/fonts/Icons.eot?#iefix') format('embedded-opentype'),
 	url('http://doublem.org/hira/lib/css/fonts/Icons.woff') format('woff'),
-	url('http://doublem.org/hira/lib/css/fonts/Icons.ttf') format('truetype'),
+	/*url('http://doublem.org/hira/lib/css/fonts/Icons.ttf') format('truetype'),*/
 	url('http://doublem.org/hira/lib/css/fonts/Icons.svg#Icons') format('svg');
 	font-weight: normal;
 	font-style: normal;

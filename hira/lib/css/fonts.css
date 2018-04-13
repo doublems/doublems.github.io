@@ -697,10 +697,10 @@ you can use the generic selector below, but it's slower:
 	content: "\e0d4";
 }
 .font-icon-arrow-simple-left:before {
-	content: "\e0d5"; !important;
+	content: "\e0d5";
 }
 .font-icon-arrow-simple-left-circle:before {
-	content: "\e0d6"; !important;
+	content: "\e0d6";
 }
 .font-icon-arrow-simple-down:before {
 	content: "\e0d7";

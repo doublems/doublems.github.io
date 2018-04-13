@@ -4,11 +4,11 @@ Font-Face Icons
 
 @font-face {
 	font-family: 'Icons';
-	src:url('doublem.org/hira/lib/css/fonts/Icons.eot');
-	src:url('doublem.org/hira/lib/css/fonts/Icons.eot?#iefix') format('embedded-opentype'),
-	url('doublem.org/hira/lib/css/fonts/Icons.woff') format('woff'),
-	url('doublem.org/hira/lib/css/fonts/Icons.ttf') format('truetype'),
-	url('doublem.org/hira/lib/css/fonts/Icons.svg#Icons') format('svg');
+	src:url('http://doublem.org/hira/lib/css/fonts/Icons.eot');
+	src:url('http://doublem.org/hira/lib/css/fonts/Icons.eot?#iefix') format('embedded-opentype'),
+	url('http://doublem.org/hira/lib/css/fonts/Icons.woff') format('woff'),
+	url('http://doublem.org/hira/lib/css/fonts/Icons.ttf') format('truetype'),
+	url('http://doublem.org/hira/lib/css/fonts/Icons.svg#Icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

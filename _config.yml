@@ -29,7 +29,7 @@ navigation:
   - name: Tags
     url: /tags
   - name: Hira
-    url: /hira/hira.html
+    url: /hira/index.html
 
 # Pagination
 paginate: 5

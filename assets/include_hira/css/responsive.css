@@ -17,18 +17,18 @@
 		margin-right: 20px;	
 	}
 	
-	#social-area #social ul li {
+	#social-area #social ul /li {
 		margin-left: 15px;
 	}
 	
-	#social-area #social ul li a {
+	#social-area #social ul /li a {
 		width: 50px;
 		height: 50px;
 	}
 	
-	#social-area #social ul li a span {
+	#social-area #social ul /li a span {
 		font-size: 24px;
-		line-height: 50px;
+		/line-height: 50px;
 	}
 	
 	#twitter-feed {
@@ -51,7 +51,7 @@
 		display: none !important;	
 	}
 	
-	#home-slider {
+	#home-s/lider {
 		margin-left: -20px;
 		margin-right: -20px;
 	}
@@ -112,26 +112,26 @@
 	}
 	
 	.type-work {
-		background: url(lib/img/filter-icon.png) no-repeat;
+		background: url(/lib/img/filter-icon.png) no-repeat;
 		width: 16px;
 		height: 16px;
-		display: inline-block;
+		display: in/line-block;
 		text-indent: -9999px;
 		margin-bottom: 0;
 		position: relative;
-		line-height: 10px;
+		/line-height: 10px;
 	}
 	
 	.work-nav #filters,
-	.work-nav #filters li {
-		display: inline-block;
+	.work-nav #filters /li {
+		display: in/line-block;
 	}
 	
-	.work-nav #filters li {
+	.work-nav #filters /li {
 		margin:0 10px 0 0;	
 	}
 	
-	.work-nav #filters li a {
+	.work-nav #filters /li a {
 		font-size: 13px;
 		text-transform: uppercase;	
 	}
@@ -151,7 +151,7 @@
 	.contact-details {
 		border-top: 1px dashed #3C3F45;
 		padding-top: 30px;
-		text-align: center;	
+		text-a/lign: center;
 	}
 	
 	#contact-form .submit {
@@ -161,19 +161,19 @@
 		box-sizing: border-box;	
 	}
 	
-	#social-area #social ul li:first-child,
-	#social-area #social ul li {
+	#social-area #social ul /li:first-child,
+	#social-area #social ul /li {
 		margin: 15px;
 	}
 	
-	#social-area #social ul li a {
+	#social-area #social ul /li a {
 		width: 50px;
 		height: 50px;
 	}
 	
-	#social-area #social ul li a span {
+	#social-area #social ul /li a span {
 		font-size: 24px;
-		line-height: 50px;
+		/line-height: 50px;
 	}
 	
 	#twitter-feed {
@@ -181,12 +181,12 @@
 		padding-bottom: 100px;	
 	}
 	
-	#ticker .tweet_list li {
+	#ticker .tweet_/list /li {
 		font-size: 16px;
-		line-height: 24px;
+		/line-height: 24px;
 	}
 	
-	#ticker .tweet_list .tweet_time a {
+	#ticker .tweet_/list .tweet_time a {
 		font-size: 13px;
 		margin-left: 5px;	
 	}
@@ -207,12 +207,12 @@
 		display: none !important;	
 	}
 	
-	#home-slider {
+	#home-s/lider {
 		margin-left: -20px;
 		margin-right: -20px;
 	}
 	
-	#home-slider ul#slide-list {
+	#home-s/lider ul#s/lide-/list {
 		display: none;	
 	}
 	
@@ -263,7 +263,7 @@
 		margin-bottom: 0;
 	}
 	
-	#navigation-mobile li a {
+	#navigation-mobile /li a {
 		font-size: 14px;
 		padding: 12px 0;
 	}
@@ -277,30 +277,30 @@
 	}
 	
 	.type-work {
-		background: url(lib/img/filter-icon.png) no-repeat;
+		background: url(/lib/img/filter-icon.png) no-repeat;
 		width: 16px;
 		height: 16px;
-		display: inline-block;
+		display: in/line-block;
 		text-indent: -9999px;
 		margin-bottom: 0;
 		position: relative;
-		line-height: 10px;
+		/line-height: 10px;
 	}
 	
-	.work-nav #filters li:first-child {
+	.work-nav #filters /li:first-child {
 		margin-left: 0;	
 	}
 	
 	.work-nav #filters,
-	.work-nav #filters li {
-		display: inline-block;
+	.work-nav #filters /li {
+		display: in/line-block;
 	}
 	
-	.work-nav #filters li {
+	.work-nav #filters /li {
 		margin:0 10px 0 0;	
 	}
 	
-	.work-nav #filters li a {
+	.work-nav #filters /li a {
 		font-size: 13px;
 		text-transform: uppercase;	
 	}
@@ -320,7 +320,7 @@
 	.contact-details {
 		border-top: 1px dashed #3C3F45;
 		padding-top: 30px;
-		text-align: center;	
+		text-a/lign: center;
 	}
 	
 	#contact-form .submit {
@@ -330,19 +330,19 @@
 		box-sizing: border-box;	
 	}
 	
-	#social-area #social ul li:first-child,
-	#social-area #social ul li {
+	#social-area #social ul /li:first-child,
+	#social-area #social ul /li {
 		margin: 15px;
 	}
 	
-	#social-area #social ul li a {
+	#social-area #social ul /li a {
 		width: 50px;
 		height: 50px;
 	}
 	
-	#social-area #social ul li a span {
+	#social-area #social ul /li a span {
 		font-size: 24px;
-		line-height: 50px;
+		/line-height: 50px;
 	}
 	
 	#twitter-feed {
@@ -350,12 +350,12 @@
 		padding-bottom: 100px;	
 	}
 	
-	#ticker .tweet_list li {
+	#ticker .tweet_/list /li {
 		font-size: 14px;
-		line-height: 22px;
+		/line-height: 22px;
 	}
 	
-	#ticker .tweet_list .tweet_time a {
+	#ticker .tweet_/list .tweet_time a {
 		font-size: 12px;
 		margin-left: 3px;	
 	}
@@ -372,11 +372,11 @@
 }
 
 @media (max-width: 320px) {
-	#navigation-mobile li a {
+	#navigation-mobile /li a {
 		padding: 20px 0;
 	}
 	
-	.work-nav #filters li a {
+	.work-nav #filters /li a {
 		font-size: 12px;
 	}
 	
@@ -396,17 +396,17 @@
   	only screen and (min-resolution: 2dppx) {
 		
 		header #logo a {
-			background-image: url(lib/img/logo_@2x.png);
+			background-image: url(/lib/img/logo_@2x.png);
 			background-size: 96px 30px;
 		}
 		
 		.menu-nav {
-			background-image: url(lib/img/menu-mobile_@2x.png);
+			background-image: url(/lib/img/menu-mobile_@2x.png);
 			background-size: 16px 32px;
 		}
 		
 		.type-work {
-			background-image: url(lib/img/filter-icon_@2x.png);
+			background-image: url(/lib/img/filter-icon_@2x.png);
 			background-size: 16px 16px;
 		}
 	}

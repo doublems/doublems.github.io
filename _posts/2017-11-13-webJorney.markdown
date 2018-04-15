@@ -4,7 +4,7 @@ title:  "Eclipse Web project로의 여정"
 date:   2017-11-13 00:20:59
 author: Jerry Ahn
 categories: Web Programming
-tags:	Eclipse Java Web
+tags:   Eclipse Java Web
 ---
 #### 1) 동기
 

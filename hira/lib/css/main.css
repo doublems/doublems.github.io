@@ -1400,6 +1400,6 @@ footer .credits {
 	filter:fliph();
 }
 
-#prevslide svg, #nextslide svg, #nextsection svg{
+#prevslide svg, #nextslide svg, #nextsection svg, #back-to-top svg{
  padding-top: 25%; padding-left: 35%;
 }

@@ -1059,8 +1059,8 @@ nav#menu #menu-nav li a:hover {
 
 #social ul li a {
 	display: block;
-	width: 70px;
-	height: 70px;
+	font-size: xx-large;
+	padding: 5px 5px;
 
 	background: #26292E;
 	
@@ -1069,11 +1069,11 @@ nav#menu #menu-nav li a:hover {
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
 	
-	-webkit-transform: rotateY(180deg);
-	   -moz-transform: rotateY(180deg);
-		-ms-transform: rotateY(180deg);
-		 -o-transform: rotateY(180deg);
-			transform: rotateY(180deg);
+	-webkit-transform: rotateY(0deg);
+	   -moz-transform: rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		 -o-transform: rotateY(0deg);
+			transform: rotateY(0deg);
 }
 
 #social ul li a span {
@@ -1102,11 +1102,11 @@ nav#menu #menu-nav li a:hover {
 #social ul li.active a {
 	background-color: #DE5E60;	
 	
-	-webkit-transform: rotateY(0deg);
-	   -moz-transform: rotateY(0deg);
-		-ms-transform: rotateY(0deg);
-		 -o-transform: rotateY(0deg);
-		    transform: rotateY(0deg);
+	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		 -o-transform: rotateY(180deg);
+		    transform: rotateY(180deg);
 }
 
 #social ul li:hover a span,
@@ -1115,12 +1115,20 @@ nav#menu #menu-nav li a:hover {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	
-	-webkit-transform: rotateY(0deg);
-	   -moz-transform: rotateY(0deg);
-		-ms-transform: rotateY(0deg);
-		 -o-transform: rotateY(0deg);
-			transform: rotateY(0deg);
+	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		 -o-transform: rotateY(180deg);
+			transform: rotateY(180deg);
 }
+#social ul li:hover a svg {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
 
 /* ==================================================
    Footer
@@ -1379,4 +1387,19 @@ footer .credits {
       -ms-transition: none;
        -o-transition: none;
           transition: none;
+}
+
+
+
+.fa-angle-right, .fa-angle-left, .fa-angle-down, .fa-facebook, .fa-linkedin, .fa-plus, .fa-twitter{
+	color: white;
+	font-size: x-large;
+}
+
+.fa-twitter, .fa-linkedin, .fa-twitter{
+	filter:fliph();
+}
+
+#prevslide svg, #nextslide svg, #nextsection svg{
+ padding-top: 25%; padding-left: 35%;
 }

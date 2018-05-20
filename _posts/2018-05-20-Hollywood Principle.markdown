@@ -6,7 +6,7 @@ author: Jerry Ahn(안재열)
 categories: Programming
 tags:   Hollywood Principle
 ---
-###헐리우드 원칙이란?
+#헐리우드 원칙이란? <br>
 헐리우드 원칙(Hollywood Principle)이란 아래와 같다
 
  ~~(가수라니..)~~
@@ -106,7 +106,7 @@ tags:   Hollywood Principle
 <br>
 
 
->####만약, 학생이 채용담당자가의 이력서를 수정 할 수 있는 권한이 생긴다면 어떤 문제가 있을까? 
+>##만약, 학생이 채용담당자가의 이력서를 수정 할 수 있는 권한이 생긴다면 어떤 문제가 있을까? 
 
 >만약, '검토 → 인터뷰요청 → 계약 → 채용완료' 의 절차가 있다면, 절차상태 중간에 수정을 하면 검토 행위가 무시된다.
 >한명이라면 검토부터 다시하면 문제가 없다.<br>
@@ -126,7 +126,7 @@ IoC와 DI를 사용하는 범주는 API와 Framework라고 할 수 있다.
 
 프레임워크의 경우에는 요즘에는 유명한 Spring DI가 있으며, API의 경우 JS의 CallBack등을 활용한 경우가 포함된다.
 
-###예시는?
+#예시는?
 
 자바스크립트 API와 스프링프레임워크 DI를 통해서 실제 사례를 살펴볼 것이다.
 
@@ -134,7 +134,7 @@ IoC와 DI를 사용하는 범주는 API와 Framework라고 할 수 있다.
 
 요청에 맞춰 행동하겠다는 것은, 다양하게 응용하여 '재사용' 할 수 있다는 것이다.
 
-####자바스크립트 API
+##자바스크립트 API
 함수 call이 이전의 경우에는 전역변수 name에 의존을 하고 있는 모습이다.
 
 재사용을 위해서는 name을 바꿔주어야 하는데.. 아래 코드에서 name이 변경되면 이전 수행작업이 변경된다. 변수와 함수가 꽁꽁묶인 코드이다. 
@@ -145,7 +145,7 @@ IoC와 DI를 사용하는 범주는 API와 Framework라고 할 수 있다.
 
 callback을 통해 인자로 함수를 넣어 주게 되면, 수행해야 할 변수와 동작까지 지정이 가능하다.
 
-##### 헐리우드 예제 코드 JS
+## 헐리우드 예제 코드 JS
 ````
 //헐리우드 적용 전
 let name = "apple";
@@ -167,7 +167,7 @@ function call(nameVar){
 call(name);
 ````
 
-####Spring 프레임워크 
+##Spring 프레임워크 
 헐리우드 적용전에는 TextEditor() 메소드가 SpellChecker 인스턴스를 생성했다.<br>
 그러나 적용 후에는 프레임워크가 빈등록과정을 통해서 SpellChecker를 생성후 파라미터로 삽입해주었다.(Dependency Injection)<br>
 이경우에도, DI로 같은 클래스의 인스턴스라면 얼마든지 교체 할 수 있다. 프로퍼티의 정의를 다른곳에 위임 해준 것이다.
@@ -211,7 +211,7 @@ public class TextEditor {
 </beans>
 ````
 
-###정리하며
+#정리하며
 
 
 헐리우드 원칙을 **'당신이 할 일 중에서 내가 필요할 때 불러주면, 요청한 사항에 맞춰서 행동하겠다.'** 라고 정의했었다.<br>
@@ -226,7 +226,7 @@ public class TextEditor {
 
 ---
 
-####참고자료
+#참고자료
 - https://dzone.com/articles/the-hollywood-principle
 - http://wiki.c2.com/?HollywoodPrinciple
 - https://martinfowler.com/bliki/InversionOfControl.html

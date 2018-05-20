@@ -268,6 +268,7 @@ public final class Constants {
 source="org.eclipse.jst.jee.server:ProjectStructure_test"/></Host>
 ```
 
+
 따라서, 추후 웹 프로젝트 수행시는 War를 생성후 톰캣폴더에 직접 올려줘야 합니다.이를 배포라고 합니다.
 ------
 > #### War 배포

@@ -4,12 +4,8 @@ title:  "헐리우드원칙과 DIP구현"
 date:   2018-06-14 10:29:00
 author: Jerry Ahn(안재열)
 categories: Programming
-tags:   Hollywood Principle, DIP, js, java
+tags:   Hollywood Principle DIP js java
 ---
-
-헐리우드원칙과 DIP구현
-======================
-
 ### 들어가며
 
  다른사람들과 함께 \'일\'을 하다보면 다양한 \'일\'을 겪는다. 그 일들은
@@ -19,8 +15,7 @@ tags:   Hollywood Principle, DIP, js, java
 해결하는 방법을 만드는 일을 할 수도, 필요와 욕구 사이를 적절히 조율하는
 일을 할 수도 있다.
 
-![href="//doublems.github.io/assets/postphoto/20180614/1.jpg"](media/image1.tmp){width="3.90625in"
-height="2.6041666666666665in"}
+<img src="//doublems.github.io/assets/postphoto/20180614/1.jpg" title=""  width="50%" height="50%">
 
 소프트웨어는 무엇이고, 개발은 무엇인가? 아마, 소프트웨어는 문제를
 해결하는 방법이며 개발은 문제를 해결하는 일을 만드는 일이라고 할 수 있을
@@ -56,8 +51,7 @@ height="2.6041666666666665in"}
 "Don't call us, we'll call you" 우리한테 연락하지 마세요. 우리가
 연락할께요
 
-![href="//doublems.github.io/assets/postphoto/20180614/2.jpg"](media/image2.tmp){width="4.875in"
-height="6.885416666666667in"}
+<img src="//doublems.github.io/assets/postphoto/20180614/2.jpg" title=""  width="50%" height="50%">
 
 \'내\'가 할 수 있는 일과 \'남\'이 할 수 있는 일을 구분하는 것이다.
 
@@ -70,8 +64,7 @@ height="6.885416666666667in"}
 
 구직을 위해서라면 기업요청에 맞춰 유연하게 대응해야한다.
 
-![href="//doublems.github.io/assets/postphoto/20180614/3.jpg"](media/image3.tmp){width="4.625in"
-height="2.6041666666666665in"}
+<img src="//doublems.github.io/assets/postphoto/20180614/3.jpg" title=""  width="50%" height="50%">
 
 위의 경우 구직자의 서류가 모두 통과 되었다고 하자, 그렇다면 구직자는
 세가지의 채용 프로세스에 따라서 행동을 해야 한다.
@@ -227,8 +220,7 @@ Dependency Inversion Principle 이라고 한다. (이하 DIP) , 의존이란
 하지만, 지금까지의 프로그래밍 결과로는 상위모듈이 하위모듈에 의존하고
 있는 모습이다.
 
-![href="//doublems.github.io/assets/postphoto/20180614/4.jpg"](media/image4.tmp){width="4.875in"
-height="1.0104166666666667in"}
+<img src="//doublems.github.io/assets/postphoto/20180614/4.jpg" title=""  width="50%" height="50%">
 
 >*A* ***policy*** *is* *a* *set* *of* *ideas* *or* *plans* *that
 is* *used* *as* *a* *basis* *for* *making* *decisions*, *especially* *in* *politics*, *economics*, *orbusiness*.
@@ -243,11 +235,9 @@ Policy는 계획이나 아이디어의 모음이며, 의사결정을 하는데 �
 Route.get(\'/\')의 getResult 호출 변경*)을 따르는 경우에는 필연적으로
 웹템플릿을 수정 할 수 밖에 없다.
 
-![href="//doublems.github.io/assets/postphoto/20180614/5.jpg"](media/image5.tmp){width="4.625in"
-height="2.6041666666666665in"}
+<img src="//doublems.github.io/assets/postphoto/20180614/5.jpg" title=""  width="50%" height="50%">
 
-![href="//doublems.github.io/assets/postphoto/20180614/6.jpg"](media/image6.tmp){width="4.875in"
-height="3.1354166666666665in"}
+<img src="//doublems.github.io/assets/postphoto/20180614/6.jpg" title=""  width="50%" height="50%">
 
 DIP는 이를 해결하기 위해 Interface를 사용하라고 한다. 어떤 뜻일까?
 
@@ -535,8 +525,7 @@ return applicant;
 
 }
 ````
-![href="//doublems.github.io/assets/postphoto/20180614/7.jpg"](media/image7.tmp){width="4.625in"
-height="2.6041666666666665in"}
+<img src="//doublems.github.io/assets/postphoto/20180614/7.jpg" title=""  width="50%" height="50%">
 
 -   추후 OCP 연계 및 자동화기능을 수행하는 Factory를 만들어보자.
 

@@ -15,7 +15,7 @@ tags:   Hollywood Principle DIP js java
 해결하는 방법을 만드는 일을 할 수도, 필요와 욕구 사이를 적절히 조율하는
 일을 할 수도 있다.
 
-<img src="//doublems.github.io/assets/postphoto/20180614/1.jpg" title=""  width="50%" height="50%">
+<img src="//doublems.github.io/assets/postphoto/20180614/1.jpg" title=""  width="100%" height="100%">
 
 소프트웨어는 무엇이고, 개발은 무엇인가? 아마, 소프트웨어는 문제를
 해결하는 방법이며 개발은 문제를 해결하는 일을 만드는 일이라고 할 수 있을
@@ -51,7 +51,7 @@ tags:   Hollywood Principle DIP js java
 "Don't call us, we'll call you" 우리한테 연락하지 마세요. 우리가
 연락할께요
 
-<img src="//doublems.github.io/assets/postphoto/20180614/2.jpg" title=""  width="50%" height="50%">
+<img src="//doublems.github.io/assets/postphoto/20180614/2.jpg" title=""  width="100%" height="100%">
 
 \'내\'가 할 수 있는 일과 \'남\'이 할 수 있는 일을 구분하는 것이다.
 
@@ -64,7 +64,7 @@ tags:   Hollywood Principle DIP js java
 
 구직을 위해서라면 기업요청에 맞춰 유연하게 대응해야한다.
 
-<img src="//doublems.github.io/assets/postphoto/20180614/3.jpg" title=""  width="50%" height="50%">
+<img src="//doublems.github.io/assets/postphoto/20180614/3.jpg" title=""  width="100%" height="100%">
 
 위의 경우 구직자의 서류가 모두 통과 되었다고 하자, 그렇다면 구직자는
 세가지의 채용 프로세스에 따라서 행동을 해야 한다.
@@ -121,13 +121,13 @@ p Welcome to \#{result.company}
 p \#{result.name}은 \#{result.company}의 채용전형 결과
 \#{result.score}로 \#{result.isHired}하셨습니다.
 ````
+
 A기업의 채용프로세스는 다음과 같다.
 
 >-   지원자의 이름은 지원번호와 함께 나타난다.
-
-<!-- -->
-
 >-   지원자의 점수는 10을 곱하여 합격유무가 결정된다.
+
+
 ````
 A 기업
 
@@ -151,6 +151,7 @@ return applicant
 
 }
 ````
+
 여기서 B기업의 프로세스를 추가하려면 아래와 같은 선택지가 있다.
 
 >a\. getResult를 삭제 혹은 주석처리
@@ -169,6 +170,7 @@ b안은 함수의 이름을 관리해야하며, 잘못된 함수의 이름은 �
 
 잘못된 페이지는 잘못된 응용이다.  (아래 B기업의 결과를 보고 싶다면
 반드시 결과(웹) 템플릿의 호출 프로퍼티 식별자 명을 바꿔야 한다.)
+
 ````
 B 기업
 
@@ -192,6 +194,7 @@ return applicant
 
 }
 ````
+
 ### 의존성역전의 원칙
 
 Dependency Inversion Principle 이라고 한다. (이하 DIP) , 의존이란
@@ -220,7 +223,7 @@ Dependency Inversion Principle 이라고 한다. (이하 DIP) , 의존이란
 하지만, 지금까지의 프로그래밍 결과로는 상위모듈이 하위모듈에 의존하고
 있는 모습이다.
 
-<img src="//doublems.github.io/assets/postphoto/20180614/4.jpg" title=""  width="50%" height="50%">
+<img src="//doublems.github.io/assets/postphoto/20180614/4.jpg" title=""  width="100%" height="100%">
 
 >*A* ***policy*** *is* *a* *set* *of* *ideas* *or* *plans* *that
 is* *used* *as* *a* *basis* *for* *making* *decisions*, *especially* *in* *politics*, *economics*, *orbusiness*.
@@ -235,9 +238,9 @@ Policy는 계획이나 아이디어의 모음이며, 의사결정을 하는데 �
 Route.get(\'/\')의 getResult 호출 변경*)을 따르는 경우에는 필연적으로
 웹템플릿을 수정 할 수 밖에 없다.
 
-<img src="//doublems.github.io/assets/postphoto/20180614/5.jpg" title=""  width="50%" height="50%">
+<img src="//doublems.github.io/assets/postphoto/20180614/5.jpg" title=""  width="100%" height="100%">
 
-<img src="//doublems.github.io/assets/postphoto/20180614/6.jpg" title=""  width="50%" height="50%">
+<img src="//doublems.github.io/assets/postphoto/20180614/6.jpg" title=""  width="100%" height="100%">
 
 DIP는 이를 해결하기 위해 Interface를 사용하라고 한다. 어떤 뜻일까?
 
@@ -272,6 +275,7 @@ MVC 디자인 패턴 - 데이터와 표현 분리\
 
 만약, 구인기업의 채용프로세스를 모른다고 가정한다면 어떻게 코드를
 작성해야 할까? 막연히 프로세스를 알때까지 기다려야 할까?
+
 ````
 /\* GET home page. \*/
 
@@ -286,6 +290,7 @@ res.render(\'index\', { result:result});
 
 });
 ````
+
 이런경우 아래와 같이 작성을 하게 된다면 이후, 채용프로세스를 알때,
 우리는 채용프로세스 함수를 인자로 넣어주기만 하면 된다. 
 
@@ -293,6 +298,7 @@ res.render(\'index\', { result:result});
 
 **"Don't call us, we'll call you" 우리한테 연락하지 마세요. 우리가
 연락할께요. 가 눈앞에 구현되는 순간이다.**
+
 ````
 /\* GET home page. \*/
 
@@ -320,6 +326,7 @@ return callback(applicant);
 
 };
 ````
+
 단지 JS로 구현한 코드에는 인터페이스의 강제성이 없어서 만약 applicant의
 프로퍼티 타입이 다를경우를 해결하는 로직을 getResult에 구현해줘야한다. 
 
@@ -331,6 +338,7 @@ return callback(applicant);
 (사실. Interface라면 서로 합의가 된 상태에서 구현이 이뤄져야한다.
 아니면, 누군가가 하나의 기준을 준수하고 따라줘야 한다. 프로퍼티가
 다르다는 것은 인터페이스가 제 기능을 못하는것으로 봐도 될 것이다.) 
+
 ````
 var express = require(\'express\');
 
@@ -364,121 +372,75 @@ return callback(applicant);
 //A기업
 
 function CompanyA(applicant){
-
-applicant.name = (\"지원번호 000123/\"+applicant.name);
-
-applicant.company = \'A기업\';
-
-var companyScore = (applicant.score \* 10);
-
-if(companyScore \>99){
-
-applicant.isHired =\"합격\";
-
-}else {
-
-applicant.isHired = \"불합격\";
-
-}
-
-return applicant;
-
+    applicant.name = (\"지원번호 000123/\"+applicant.name);
+    applicant.company = \'A기업\';
+    var companyScore = (applicant.score \* 10);
+    if(companyScore \>99){
+        applicant.isHired =\"합격\";
+    }else {
+        applicant.isHired = \"불합격\";
+    }
+    return applicant;
 }
 
 //B기업
 
 function CompanyB(applicant){
+    applicant.company = \'B기업\';
+    var companyScore = (applicant.score \* 5);
+    if(companyScore \>60){
+        applicant.isHired =\"합격\";
+    }else {
+        applicant.isHired = \"불합격\";
+    }
 
-applicant.company = \'B기업\';
-
-var companyScore = (applicant.score \* 5);
-
-if(companyScore \>60){
-
-applicant.isHired =\"합격\";
-
-}else {
-
-applicant.isHired = \"불합격\";
-
-}
-
-return applicant;
-
+    return applicant;
 }
 ````
+
 이를 자바에서 구현해보자. 자바의 경우에는 인터페이스를 구현시에는
 강제성을 지닌다. 따라서 결과에 대한 보장을 받을 수 있다.
 
 아래와 같이 구현시에는 지원서에 적힌 Company명을 가지고 분류하는
 기능으로 자동화가 가능하다. 이기능을 구현시에는 이부분의 코딩은 완료가
 된다. → Factory Pattern 을 통한 활용이 가능
+
 ````
 package Controller;
-
 import model.Applicant;
-
 import model.CompanyA;
-
 import model.HiringProcess;
-
 import org.springframework.stereotype.Controller;
-
 import org.springframework.ui.Model;
-
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import java.util.Map;
 
 \@Controller
-
 public class IndexController {
-
-\@RequestMapping(\"/\")
-
-public String welcome(Model model) {
-
-Applicant jerry = new Applicant(\"jerry\",10);
-
-HiringProcess result = new CompanyA(); // 채용프로세스 타입을
-보장받는다.
-
-// (지금은 CompanyA를 넣었지만, 지원서에 적힌 Company명을 가지고
-분류하는 기능으로 자동화가 가능하다. 이기능을 구현시에는 이부분의 코딩은
-완료가 된다.)
-
-model.addAttribute(\"result\", result.getResult(jerry));
-
-return \"welcome\";
-
-}
-
+    \@RequestMapping(\"/\")
+    public String welcome(Model model) {
+    Applicant jerry = new Applicant(\"jerry\",10);
+    HiringProcess result = new CompanyA(); // 채용프로세스 타입을 보장받는다.
+    // (지금은 CompanyA를 넣었지만, 지원서에 적힌 Company명을 가지고
+    분류하는 기능으로 자동화가 가능하다. 이기능을 구현시에는 이부분의 코딩은
+    완료가 된다.)
+    model.addAttribute(\"result\", result.getResult(jerry));
+    return \"welcome\";
+    }
 }
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
-
 package model;
-
 public class Applicant {
-
 private String name;
-
 private String company;
-
 private int score;
-
 private String isHired;
-
 public Applicant(String name, int score){
-
 this.name = name;
-
 this.score = score;
-
 this.company = \"\";
-
 this.isHired =\"미정\";
-
 }
 
 \..... Getter, Setter}
@@ -486,46 +448,30 @@ this.isHired =\"미정\";
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 package model;
-
 //채용프로세스 인터페이스
-
 public interface HiringProcess {
-
 Applicant getResult(Applicant applicant);
-
 }
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 package model;
-
 public class CompanyA implements HiringProcess {
 
-\@Override
-
-public Applicant getResult(Applicant applicant) {
-
-applicant.setName((\"지원번호 000123/\"+applicant.getName()));
-
-int companyScore = (applicant.getScore() \* 10);
-
-if(companyScore \>99){
-
-applicant.setIsHired(\"합격\");
-
-}else {
-
-applicant.setIsHired(\"불합격\");
-
-}
-
-return applicant;
-
-}
-
+    \@Override
+    public Applicant getResult(Applicant applicant) {
+        applicant.setName((\"지원번호 000123/\"+applicant.getName()));
+        int companyScore = (applicant.getScore() \* 10);
+        if(companyScore \>99){
+          applicant.setIsHired(\"합격\");
+        }else {
+          applicant.setIsHired(\"불합격\");
+        }
+        return applicant;
+    }
 }
 ````
-<img src="//doublems.github.io/assets/postphoto/20180614/7.jpg" title=""  width="50%" height="50%">
+<img src="//doublems.github.io/assets/postphoto/20180614/7.jpg" title=""  width="100%" height="100%">
 
 -   추후 OCP 연계 및 자동화기능을 수행하는 Factory를 만들어보자.
 
@@ -533,15 +479,9 @@ return applicant;
 --------
 
 -   [[http://doublem.org/Hollywood-Principle/]{.underline}](http://doublem.org/Hollywood-Principle/)
-
 -   [[https://dzone.com/articles/the-hollywood-principle]{.underline}](https://dzone.com/articles/the-hollywood-principle)
-
 -   [[https://en.wikipedia.org/wiki/Dependency\_inversion\_principle]{.underline}](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
-
 -   [[http://vandbt.tistory.com/42]{.underline}](http://vandbt.tistory.com/42)
-
 -   [[https://medium.com/\@smartbosslee/%EA%B4%80%EC%8B%AC%EC%82%AC%EC%9D%98-%EB%B6%84%EB%A6%AC-separation-of-concerns-soc-8a8d09df066d]{.underline}](https://medium.com/@smartbosslee/%EA%B4%80%EC%8B%AC%EC%82%AC%EC%9D%98-%EB%B6%84%EB%A6%AC-separation-of-concerns-soc-8a8d09df066d)
-
 -   [[https://zetawiki.com/wiki/%EA%B4%80%EC%8B%AC%EC%9D%98\_%EB%B6%84%EB%A6%AC\_SoC]{.underline}](https://zetawiki.com/wiki/%EA%B4%80%EC%8B%AC%EC%9D%98_%EB%B6%84%EB%A6%AC_SoC)
-
 -   [[https://en.wikipedia.org/wiki/Living\_lab]{.underline}](https://en.wikipedia.org/wiki/Living_lab)

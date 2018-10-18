@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f58805-5a80-4134-ab3c-170b993f8f43" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018--10-18-SOLID_SRP_OCP.md" afterPath="$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,12 +78,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018--10-18-SOLID_SRP_OCP.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018--10-18-SOLID_SRP_OCP.md">
+      <file leaf-file-name="2018-10-18-SOLID_SRP_OCP.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="722">
-                <caret line="287" column="54" lean-forward="true" selection-start-line="287" selection-start-column="54" selection-end-line="287" selection-end-column="54" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -389,7 +389,7 @@
       <workItem from="1528720355255" duration="404000" />
       <workItem from="1528720786573" duration="87000" />
       <workItem from="1539871215661" duration="121000" />
-      <workItem from="1539871407849" duration="2929000" />
+      <workItem from="1539871407849" duration="3224000" />
     </task>
     <task id="LOCAL-00001" summary="ga.js 경로 수정">
       <created>1523786100920</created>
@@ -535,7 +535,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18730000" />
+    <option name="totallyTimeSpent" value="19025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="-4" width="1922" height="1037" extended-state="6" />
@@ -1016,11 +1016,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018--10-18-SOLID_SRP_OCP.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="722">
-            <caret line="287" column="54" lean-forward="true" selection-start-line="287" selection-start-column="54" selection-end-line="287" selection-end-column="54" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

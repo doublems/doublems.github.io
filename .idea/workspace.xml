@@ -82,8 +82,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="666">
-                <caret line="37" column="89" lean-forward="false" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
+              <first_editor relative-caret-position="754">
+                <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -391,7 +391,7 @@
       <workItem from="1528720355255" duration="404000" />
       <workItem from="1528720786573" duration="87000" />
       <workItem from="1539871215661" duration="121000" />
-      <workItem from="1539871407849" duration="3549000" />
+      <workItem from="1539871407849" duration="4302000" />
     </task>
     <task id="LOCAL-00001" summary="ga.js 경로 수정">
       <created>1523786100920</created>
@@ -537,7 +537,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19350000" />
+    <option name="totallyTimeSpent" value="20103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="-4" width="1922" height="1037" extended-state="6" />
@@ -1027,8 +1027,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="666">
-            <caret line="37" column="89" lean-forward="false" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
+          <first_editor relative-caret-position="754">
+            <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

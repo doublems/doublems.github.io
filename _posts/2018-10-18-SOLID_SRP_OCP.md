@@ -40,6 +40,7 @@ Robert C. Martin은 다섯 가지 지침을 개발했습니다. 다섯 가지 �
 ________________________________
 ### Single Responsibility Principle (SRP:단일 책임 원칙)
 > “…You had one job” — Loki to Skurge in Thor: Ragnarok
+
 > 당신은 일 하나를 가지고 있었다... -  로키, 토르 라그나로크 中
 >> ("당신은 일 하나를 가지고 있었다"라는 말은 직장에서 개인이 저지른 실수에 주의를 환기시키는 표현입니다. https://knowyourmeme.com/memes/you-had-one-job)
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f58805-5a80-4134-ab3c-170b993f8f43" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2018--10-18-SOLID_SRP_OCP.md" afterPath="$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md" afterPath="$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,6 +82,19 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
+              <first_editor relative-caret-position="666">
+                <caret line="37" column="89" lean-forward="false" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-06-14-Hollywood_DIP_Impl.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-14-Hollywood_DIP_Impl.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
                 <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
@@ -97,21 +110,6 @@
             <state relative-caret-position="1998">
               <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-08-14-style-test-ko.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/how_to_use/2016-08-14-style-test-ko.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1404">
-                <caret line="78" column="49" lean-forward="false" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
-                <folding>
-                  <marker date="1523785807871" expanded="true" signature="2446:2503" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -175,6 +173,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-05-20-Hollywood Principle.markdown" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2018--10-18-SOLID_SRP_OCP.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md" />
       </list>
     </option>
   </component>
@@ -269,6 +268,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/postphoto" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/assets/postphoto/20180520" />
@@ -389,7 +391,7 @@
       <workItem from="1528720355255" duration="404000" />
       <workItem from="1528720786573" duration="87000" />
       <workItem from="1539871215661" duration="121000" />
-      <workItem from="1539871407849" duration="3224000" />
+      <workItem from="1539871407849" duration="3549000" />
     </task>
     <task id="LOCAL-00001" summary="ga.js 경로 수정">
       <created>1523786100920</created>
@@ -535,7 +537,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19025000" />
+    <option name="totallyTimeSpent" value="19350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="-4" width="1922" height="1037" extended-state="6" />
@@ -593,11 +595,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/jekyll-now-theme-screenshot.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/how_to_use/2015-08-16-code-highlighting-post.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -931,19 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-20-Hollywood Principle.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1539871369429" expanded="true" signature="1516:1519" ph="block quote: &gt;목표&#10;&gt;채용(구직과 구인)&#10;&gt;요소의 구...들어있다." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/how_to_use/2016-08-14-style-test-ko.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1016,11 +1000,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-14-Hollywood_DIP_Impl.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-20-Hollywood Principle.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1539871369429" expanded="true" signature="1516:1519" ph="block quote: &gt;목표&#10;&gt;채용(구직과 구인)&#10;&gt;요소의 구...들어있다." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="666">
+            <caret line="37" column="89" lean-forward="false" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
             <folding />
           </first_editor>
           <second_editor />

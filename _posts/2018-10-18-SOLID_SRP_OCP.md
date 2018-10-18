@@ -35,10 +35,10 @@ Robert C. Martin은 다섯 가지 지침을 개발했습니다. 다섯 가지 �
 - Tip : SOLID 원칙은 모듈화, 캡슐화, 확장용이성, 구성용이한 컴포넌트 등을 고려한 소프트웨어의 구축을 위한 설계 입니다.
 (비트 (Bit)는 이러한 원칙을 실천에 옮기는 도구입니다. 팀별로 다양한 프로젝트에서 이러한 구성 요소를 쉽게 분리, 공유 및 관리 할 수 ​​있습니다.)
 
-<img src="//doublems.github.io/assets/postphoto/20180614/1.jpg" title=""  width="100%" height="100%">
+<img src="//doublems.github.io/assets/postphoto/srp.jpeg" title=""  width="80%" height="80%">
 
 ________________________________
-###Single Responsibility Principle (SRP:단일 책임 원칙)
+### Single Responsibility Principle (SRP:단일 책임 원칙)
 > “…You had one job” — Loki to Skurge in Thor: Ragnarok
 > 당신은 일 하나를 가지고 있었다... -  로키, 토르 라그나로크 中
 >> ("당신은 일 하나를 가지고 있었다"라는 말은 직장에서 개인이 저지른 실수에 주의를 환기시키는 표현입니다. https://knowyourmeme.com/memes/you-had-one-job)
@@ -107,7 +107,7 @@ class AnimalDB {
 
 _____________________________________________
 
-###Open-Closed Principle (OCP:열림-닫힘 원칙)
+### Open-Closed Principle (OCP:열림-닫힘 원칙)
 
 > 소프트웨어 엔티티(클래스,모듈,함수)는 확장을 위해 열려있고, 수정되서는 안된다.
 

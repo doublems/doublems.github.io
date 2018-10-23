@@ -11,7 +11,7 @@ tags:   SOLID Principles every Developer Should Know
 <img src="//doublems.github.io/assets/postphoto/softwareIsNotZenga.jpg" title=""  width="80%" height="80%">
 
 
-###Liskov Substitution Principle (리스코프 치환원칙:LSP)
+### Liskov Substitution Principle (리스코프 치환원칙:LSP)
 > 하위 클래스는 반드시 상위클래스와 대체 가능 해야 한다. 
 
 이 원칙이 지향하는 것은 하위클래스가 상위 클래스의 자리를 에러 없이 맡을 수 있는지 확인하는 것 입니다.
@@ -116,7 +116,7 @@ Lion 클래스 타입의 아규먼트가 AnimalLegCount() 메소드로 전달 �
 
 ----
 
-###Interface Segregation Principle (인터페이스 분리 원칙 : ISP)
+### Interface Segregation Principle (인터페이스 분리 원칙 : ISP)
 
 > 클라이언트의 세분화된 내용과 같은 세분화된 인터페이스를 만들자.
 
@@ -256,7 +256,7 @@ ISqurae 는 Squre그리는 일만. 그리고 IRectangle은 rectangles를 그리�
 
 ----
 
-###Dependency Inversion Principle (의존성 역전 원칙 : DIP)
+### Dependency Inversion Principle (의존성 역전 원칙 : DIP)
 의존(종속)은 구체가 아닌 추상과 이뤄져야 한다.
 
 > A. 고수준(High-Level)의 모듈은 저수준(Low-Level)의 모듈에 의존하면 안된다. 둘다 추상화에 의존해야한다.

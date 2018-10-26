@@ -5,6 +5,7 @@ date:   2018-10-18 23:00:00
 author: Jerry Ahn(안재열)
 categories: Programming
 tags:   SOLID Principles every Developer Should Know
+comments: true
 ---
 
 ### 들어가며

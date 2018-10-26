@@ -5,6 +5,7 @@ date:   2018-05-20 19:00:00
 author: Jerry Ahn(안재열)
 categories: Programming
 tags:   Hollywood Principle
+comments: true
 ---
 ## 헐리우드 원칙이란? <br>
 헐리우드 원칙(Hollywood Principle)이란 아래와 같다

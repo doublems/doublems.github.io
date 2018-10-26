@@ -5,6 +5,7 @@ date:   2018-06-14 10:29:00
 author: Jerry Ahn(안재열)
 categories: Programming
 tags:   Hollywood Principle DIP js java
+comments: true
 ---
 ### 들어가며
 다른사람들과 함께 \'일\'을 하다보면 다양한 \'일\'을 겪는다. 그 일들은

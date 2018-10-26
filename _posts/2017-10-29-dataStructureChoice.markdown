@@ -5,6 +5,7 @@ date:   2017-10-29 00:20:59
 author: Jerry Ahn(안재열)
 categories: Web Programming
 tags:   Java
+comments: true
 ---
 
 프로그래밍에 처음 입문한 사람에게 어려운 일은 많습니다. Collection, Data Structure라고 불리는 하나 이상의 데이터를 담기 위한 객체를 선정하는 일도 어렵습니다.

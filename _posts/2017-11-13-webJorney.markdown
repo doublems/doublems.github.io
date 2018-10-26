@@ -5,6 +5,7 @@ date:   2017-11-13 00:20:59
 author: Jerry Ahn(안재열)
 categories: Web Programming
 tags:   Eclipse Java Web
+comments: true
 ---
 
 많은 분들이 처음 Java를 학습 할 때, 이클립스 IDE를 설치하고 예시를 따라서 기본프로젝트로 src 하단에 `Helloworld.java`  를 작성한 경험이 있을것으로 생각합니다.

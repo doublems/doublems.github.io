@@ -392,7 +392,7 @@
       <workItem from="1539871407849" duration="4896000" />
       <workItem from="1540303360917" duration="2674000" />
       <workItem from="1540468237573" duration="408000" />
-      <workItem from="1540551903573" duration="213000" />
+      <workItem from="1540551903573" duration="286000" />
     </task>
     <task id="LOCAL-00001" summary="ga.js 경로 수정">
       <created>1523786100920</created>
@@ -569,11 +569,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540468492761</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="계정정보 업데이트">
+      <created>1540552120486</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1540552120486</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23992000" />
+    <option name="totallyTimeSpent" value="24065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="-4" width="1922" height="1037" extended-state="6" />

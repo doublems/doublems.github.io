@@ -34,7 +34,7 @@ Robert C. Martin은 다섯 가지 지침을 개발했습니다. 다섯 가지 �
 - Note : 이번 글에 있는 대부분의 예제는 실제 어플리케이션의 적용이나 사례로로 충분하지 않을 수 있습니다. 모든것은 자신의 설계와 사용 사례에 달려 있습니다.  가장 중요하게 이해해야 하는 것은 어떻게 원칙을 적용하고 따라 하는지를 아는 것 입니다.
 
 - Tip : SOLID 원칙은 모듈화, 캡슐화, 확장용이성, 구성용이한 컴포넌트 등을 고려한 소프트웨어의 구축을 위한 설계 입니다.
-(비트 (Bit)는 이러한 원칙을 실천에 옮기는 도구입니다. 팀별로 다양한 프로젝트에서 이러한 구성 요소를 쉽게 분리, 공유 및 관리 할 수 ​​있습니다.)
+(비트([Bit])는 이러한 원칙을 실천에 옮기는 도구입니다. 팀별로 다양한 프로젝트에서 이러한 구성 요소를 쉽게 분리, 공유 및 관리 할 수 ​​있습니다.)
 
 <img src="//doublems.github.io/assets/postphoto/srp.jpeg" title=""  width="80%" height="80%">
 
@@ -287,4 +287,5 @@ ________
 
 - [SOLID Principles every Developer Should Know](https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688).
 
+[Bit]: https://github.com/teambit/bit
 [Chidume Nnamdi]: https://blog.bitsrc.io/@kurtwanger40

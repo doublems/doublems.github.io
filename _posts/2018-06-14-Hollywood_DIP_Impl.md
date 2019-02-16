@@ -7,7 +7,6 @@ categories: Programming
 tags:   Hollywood Principle DIP js java
 comments: true
 ---
-### 들어가며
 다른사람들과 함께 '일'을 하다보면 다양한 '일'을 겪는다. 그 일들은
 고객의 문제와 해결이며, 필요성과 욕구 사이의 줄타기이다.
 
@@ -484,5 +483,5 @@ public class CompanyA implements HiringProcess {
 -   [https://en.wikipedia.org/wiki/Dependency_inversion_principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 -   [http://vandbt.tistory.com/42](http://vandbt.tistory.com/42)
 -   [https://medium.com/@smartbosslee/%EA%B4%80%EC%8B%AC%EC%82%AC%EC%9D%98-%EB%B6%84%EB%A6%AC-separation-of-concerns-soc-8a8d09df066d](https://medium.com/@smartbosslee/%EA%B4%80%EC%8B%AC%EC%82%AC%EC%9D%98-%EB%B6%84%EB%A6%AC-separation-of-concerns-soc-8a8d09df066d)
--   [https://zetawiki.com/wiki/%EA%B4%80%EC%8B%AC%EC%9D%98_%EB%B6%84%EB%A6%AC_SoC](https://zetawiki.com/wiki/%EA%B4%80%EC%8B%AC%EC%9D%98_%EB%B6%84%EB%A6%AC_SoC)
+-   [https://zetawiki.com/wiki/%EA%B4%80%EC%8B%AC%EC%9D%98_%EB%B6%84%EB%A6%AC_SoC]
 -   [https://en.wikipedia.org/wiki/Living_lab](https://en.wikipedia.org/wiki/Living_lab)

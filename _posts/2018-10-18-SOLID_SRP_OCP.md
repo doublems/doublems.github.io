@@ -8,8 +8,6 @@ tags:   SOLID Principles every Developer Should Know
 comments: true
 ---
 
-### 들어가며
-
 객체지향 타입의 프로그래밍은 소프트웨어 개발의 새로운 설계를 불러왔습니다.
 
 개발자가 데이터와 같은 목적/기능을 클래스로 묶을 수 있으며, 전체 어플리케이션과 상관없이 단일 목적을 위해 이용 할 수 있습니다.
@@ -57,7 +55,7 @@ ________________________________
 
 다음 아래의 예제 코드를 살펴보세요.
 
-````
+````cfml
 class Animal {
     constructor(name: string){ }
     getAnimalName() { }
@@ -90,7 +88,7 @@ Animal 클래스는 SRP원칙을 위반했습니다.
 
 이런 시스템이 SRP를 따르도록, DB에 각 animal을 저장하는 단 하나의 책임을 관리 할 또 다른 클래스를 만들었습니다.
 
-````
+````cfml
 class Animal {
     constructor(name: string){ }
     getAnimalName() { }
@@ -116,7 +114,7 @@ _____________________________________________
 
 계속해서 우리의 Animal 클래스를 살펴봅시다.
 
-````
+````cfml
 class Animal {
     constructor(name: string){ }
     getAnimalName() { }
@@ -125,7 +123,7 @@ class Animal {
 
 우리는 Animal 리스트를 반복하고, 각 Animal의 울음소리를 반복하였습니다. 
 
-````
+````cfml
 //...
 const animals: Array<Animal> = [
     new Animal('lion'),
@@ -146,7 +144,7 @@ AnimalSound(animals);
 
 만약, 우리가 새로운 Animal, Snake를 추가한다면:
 
-````
+````cfml
 //...
 const animals: Array<Animal> = [
     new Animal('lion'),
@@ -177,7 +175,7 @@ AnimalSound(animals);
 
 어떻게 하면 AnimalSound가 OCP를 지킬 수 있도록 할까요?
 
-````
+````cfml
 class Animal {
         makeSound();
         //...
@@ -223,7 +221,7 @@ AnimalSound는 이제 OCP 원칙을 따르게 되었습니다.
 
 클래스는 아래와 같을겁니다.
 
-````
+````cfml
 class Discount {
     giveDiscount() {
         return this.price * 0.2
@@ -233,7 +231,7 @@ class Discount {
 
 여기에 VIP 고객에게는 20%를 추가로 할인해주기로 결정했을때, 코드는 아래와 같을것입니다.
 
-````
+````cfml
 class Discount {
     giveDiscount() {
         if(this.customer == 'fav') {
@@ -255,7 +253,7 @@ OCP 원칙을 준수하며 만드는 방법은 Discount를 확장하여 새로�
 
 추가된 신규 클래스에서 우리는 신규 행위를 구현 할 수 있을 것입니다.  
 
-````
+````cfml
 class VIPDiscount: Discount {
     getDiscount() {
         return super.getDiscount() * 2;
@@ -265,7 +263,7 @@ class VIPDiscount: Discount {
 
 만약, 80%의 할인율을 슈퍼 VIP 고객에게 적용하려면 아래와 같습니다.
 
-````
+````cfml
 class SuperVIPDiscount: VIPDiscount {
     getDiscount() {
         return super.getDiscount() * 2;

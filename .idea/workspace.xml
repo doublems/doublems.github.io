@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="89f58805-5a80-4134-ab3c-170b993f8f43" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-20-Hollywood Principle.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-20-Hollywood Principle.markdown" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-06-14-Hollywood_DIP_Impl.md" afterPath="$PROJECT_DIR$/_posts/2018-06-14-Hollywood_DIP_Impl.md" />
-      <change beforePath="$PROJECT_DIR$/_sass/_variables.scss" afterPath="$PROJECT_DIR$/_sass/_variables.scss" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md" afterPath="$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-23-SOLID_LSP_ISP_DIP.md" afterPath="$PROJECT_DIR$/_posts/2018-10-23-SOLID_LSP_ISP_DIP.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,10 +21,42 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-20-Hollywood Principle.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-2644">
+              <first_editor relative-caret-position="362">
+                <caret line="210" column="0" lean-forward="true" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+                <folding>
+                  <marker date="1550296215251" expanded="true" signature="1565:1568" ph="block quote: &gt;목표&#10;&gt;채용(구직과 구인)&#10;&gt;요소의 구...들어있다." />
+                  <marker date="1550296215251" expanded="true" signature="4119:4145" ph="{...}" />
+                  <marker date="1550296215251" expanded="true" signature="4216:4245" ph="{...}" />
+                  <marker date="1550296215251" expanded="true" signature="4550:4667" ph="{...}" />
+                  <marker date="1550296215251" expanded="true" signature="4618:4665" ph="{...}" />
+                  <marker date="1550296215251" expanded="true" signature="4762:4901" ph="{...}" />
+                  <marker date="1550296215251" expanded="true" signature="5031:5535" ph="..." />
+                  <marker date="1550296215251" expanded="true" signature="5341:5398" ph="..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-11-13-webJorney.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-11-13-webJorney.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-1636">
                 <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
                 <folding>
-                  <marker date="1540553318924" expanded="true" signature="1531:1534" ph="block quote: &gt;목표&#10;&gt;채용(구직과 구인)&#10;&gt;요소의 구...들어있다." />
+                  <marker date="1540553319000" expanded="false" signature="4771:4943" ph="..." />
+                  <marker date="1540553319000" expanded="true" signature="4998:5047" ph="/**...*/" />
+                  <marker date="1540553319000" expanded="true" signature="5183:5268" ph="{...}" />
+                  <marker date="1540553319000" expanded="true" signature="5401:5650" ph="{...}" />
+                  <marker date="1540553319000" expanded="true" signature="5682:5717" ph="{}" />
+                  <marker date="1540553319000" expanded="true" signature="5877:6340" ph="..." />
+                  <marker date="1540553319000" expanded="true" signature="6086:6193" ph="..." />
+                  <marker date="1540553319000" expanded="true" signature="6213:6317" ph="..." />
+                  <marker date="1540553319000" expanded="true" signature="6923:7009" ph="/**...*/" />
+                  <marker date="1540553319000" expanded="true" signature="7610:7916" ph="/**...*/" />
+                  <marker date="1540553319000" expanded="true" signature="9950:10010" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -34,8 +68,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-4498">
-                <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="198">
+                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -43,12 +77,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_reset.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/_reset.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="2017-10-29-dataStructureChoice.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-10-29-dataStructureChoice.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="126">
+                <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-10-23-SOLID_LSP_ISP_DIP.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-10-23-SOLID_LSP_ISP_DIP.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+                <folding>
+                  <marker date="1550296566037" expanded="true" signature="4958:5000" ph="{...}" />
+                  <marker date="1550296566037" expanded="true" signature="4977:4998" ph="{...}" />
+                  <marker date="1550296566037" expanded="true" signature="5033:5075" ph="{...}" />
+                  <marker date="1550296566037" expanded="true" signature="5052:5073" ph="{...}" />
+                  <marker date="1550296566037" expanded="true" signature="5114:5163" ph="{...}" />
+                  <marker date="1550296566037" expanded="true" signature="5136:5157" ph="{...}" />
+                  <marker date="1550296566037" expanded="true" signature="5200:5244" ph="{...}" />
+                  <marker date="1550296566037" expanded="true" signature="5221:5242" ph="{...}" />
+                  <marker date="1550296566037" expanded="true" signature="5280:5311" ph="{...}" />
+                  <marker date="1550296566037" expanded="true" signature="5291:5309" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -93,71 +154,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-10-23-SOLID_LSP_ISP_DIP.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-23-SOLID_LSP_ISP_DIP.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-5848">
-                <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-06-14-Hollywood_DIP_Impl.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-06-14-Hollywood_DIP_Impl.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-14-Hollywood_DIP_Impl.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="218">
-                <caret line="454" column="1" lean-forward="true" selection-start-line="454" selection-start-column="1" selection-end-line="454" selection-end-column="1" />
+              <first_editor relative-caret-position="162">
+                <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
                 <folding>
-                  <marker date="1550295923404" expanded="true" signature="1964:1984" ph="/*...*/" />
-                  <marker date="1550295923404" expanded="true" signature="2034:2183" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="2053:2103" ph="{&quot;name&quot;: 'jerry'...}" />
-                  <marker date="1550295923404" expanded="true" signature="2216:2238" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="2561:2767" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="2679:2709" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="2714:2746" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="3278:3446" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="3362:3390" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="3395:3425" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="5614:5634" ph="/*...*/" />
-                  <marker date="1550295923404" expanded="true" signature="5677:5844" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="5696:5749" ph="{&quot;name&quot;: 'Jerry Ahn'...}" />
-                  <marker date="1550295923404" expanded="true" signature="6950:6970" ph="/*...*/" />
-                  <marker date="1550295923404" expanded="true" signature="7013:7174" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="7032:7085" ph="{&quot;name&quot;: 'Jerry Ahn'...}" />
-                  <marker date="1550295923404" expanded="true" signature="7350:7383" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="7421:7690" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="7579:7619" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="7624:7666" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="7727:7942" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="7830:7870" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="7875:7917" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="8172:8411" ph="..." />
-                  <marker date="1550295923404" expanded="true" signature="8454:8835" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="8520:8833" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="8639:8746" ph="//..." />
-                  <marker date="1550295923404" expanded="true" signature="9006:9086" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="9088:9138" ph="//..." />
-                  <marker date="1550295923404" expanded="true" signature="9201:9246" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="9335:9693" ph="{...}" />
-                  <marker date="1550295923404" expanded="true" signature="9404:9691" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="1955:1975" ph="/*...*/" />
+                  <marker date="1550296215227" expanded="true" signature="2025:2174" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="2044:2094" ph="{&quot;name&quot;: 'jerry'...}" />
+                  <marker date="1550296215227" expanded="true" signature="2207:2229" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="2552:2758" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="2670:2700" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="2705:2737" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="3269:3437" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="3353:3381" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="3386:3416" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="5605:5625" ph="/*...*/" />
+                  <marker date="1550296215227" expanded="true" signature="5668:5835" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="5687:5740" ph="{&quot;name&quot;: 'Jerry Ahn'...}" />
+                  <marker date="1550296215227" expanded="true" signature="6941:6961" ph="/*...*/" />
+                  <marker date="1550296215227" expanded="true" signature="7004:7165" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="7023:7076" ph="{&quot;name&quot;: 'Jerry Ahn'...}" />
+                  <marker date="1550296215227" expanded="true" signature="7341:7374" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="7412:7681" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="7570:7610" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="7615:7657" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="7718:7933" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="7821:7861" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="7866:7908" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="8163:8402" ph="..." />
+                  <marker date="1550296215227" expanded="true" signature="8445:8826" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="8511:8824" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="8630:8737" ph="//..." />
+                  <marker date="1550296215227" expanded="true" signature="8997:9077" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="9079:9129" ph="//..." />
+                  <marker date="1550296215227" expanded="true" signature="9192:9237" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="9326:9684" ph="{...}" />
+                  <marker date="1550296215227" expanded="true" signature="9395:9682" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -213,14 +251,14 @@
         <option value="$PROJECT_DIR$/hira/lib/css/main.css" />
         <option value="$PROJECT_DIR$/tags/index.html" />
         <option value="$PROJECT_DIR$/_posts/2018--10-18-SOLID_SRP_OCP.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-10-23-SOLID_LSP_ISP_DIP.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-05-20-Hollywood Principle.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-11-13-webJorney.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-10-29-dataStructureChoice.markdown" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md" />
         <option value="$PROJECT_DIR$/_sass/_variables.scss" />
         <option value="$PROJECT_DIR$/_posts/2018-06-14-Hollywood_DIP_Impl.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-20-Hollywood Principle.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-23-SOLID_LSP_ISP_DIP.md" />
       </list>
     </option>
   </component>
@@ -447,7 +485,7 @@
       <workItem from="1540468237573" duration="408000" />
       <workItem from="1540551903573" duration="2600000" />
       <workItem from="1541075770483" duration="17000" />
-      <workItem from="1550294402966" duration="1524000" />
+      <workItem from="1550294402966" duration="2179000" />
     </task>
     <task id="LOCAL-00001" summary="ga.js 경로 수정">
       <created>1523786100920</created>
@@ -666,11 +704,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540727957347</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="문법수정">
+      <created>1550295944013</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1550295944013</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27920000" />
+    <option name="totallyTimeSpent" value="28575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1922" height="1037" extended-state="6" />
@@ -725,7 +770,8 @@
     <MESSAGE value="계정정보 업데이트" />
     <MESSAGE value="disqus 추가" />
     <MESSAGE value="Bit 링크 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bit 링크 추가" />
+    <MESSAGE value="문법수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="문법수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -800,7 +846,14 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
             <folding>
-              <marker date="1540553318924" expanded="true" signature="1531:1534" ph="block quote: &gt;목표&#10;&gt;채용(구직과 구인)&#10;&gt;요소의 구...들어있다." />
+              <marker date="1550296215251" expanded="true" signature="1565:1568" ph="block quote: &gt;목표&#10;&gt;채용(구직과 구인)&#10;&gt;요소의 구...들어있다." />
+              <marker date="1550296215251" expanded="true" signature="4119:4145" ph="{...}" />
+              <marker date="1550296215251" expanded="true" signature="4216:4245" ph="{...}" />
+              <marker date="1550296215251" expanded="true" signature="4550:4667" ph="{...}" />
+              <marker date="1550296215251" expanded="true" signature="4618:4665" ph="{...}" />
+              <marker date="1550296215251" expanded="true" signature="4762:4901" ph="{...}" />
+              <marker date="1550296215251" expanded="true" signature="5031:5535" ph="..." />
+              <marker date="1550296215251" expanded="true" signature="5341:5398" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
@@ -1041,80 +1094,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-11-13-webJorney.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="126">
-            <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            <folding>
-              <marker date="1540553319000" expanded="false" signature="4771:4943" ph="..." />
-              <marker date="1540553319000" expanded="true" signature="4998:5047" ph="/**...*/" />
-              <marker date="1540553319000" expanded="true" signature="5183:5268" ph="{...}" />
-              <marker date="1540553319000" expanded="true" signature="5401:5650" ph="{...}" />
-              <marker date="1540553319000" expanded="true" signature="5682:5717" ph="{}" />
-              <marker date="1540553319000" expanded="true" signature="5877:6340" ph="..." />
-              <marker date="1540553319000" expanded="true" signature="6086:6193" ph="..." />
-              <marker date="1540553319000" expanded="true" signature="6213:6317" ph="..." />
-              <marker date="1540553319000" expanded="true" signature="6923:7009" ph="/**...*/" />
-              <marker date="1540553319000" expanded="true" signature="7610:7916" ph="/**...*/" />
-              <marker date="1540553319000" expanded="true" signature="9950:10010" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-29-dataStructureChoice.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="126">
-            <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-23-SOLID_LSP_ISP_DIP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-5848">
-            <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-20-Hollywood Principle.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2644">
-            <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            <folding>
-              <marker date="1540553318924" expanded="true" signature="1531:1534" ph="block quote: &gt;목표&#10;&gt;채용(구직과 구인)&#10;&gt;요소의 구...들어있다." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-4498">
-            <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1161,42 +1145,129 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-14-Hollywood_DIP_Impl.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="218">
-            <caret line="454" column="1" lean-forward="true" selection-start-line="454" selection-start-column="1" selection-end-line="454" selection-end-column="1" />
+          <first_editor relative-caret-position="162">
+            <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             <folding>
-              <marker date="1550295923404" expanded="true" signature="1964:1984" ph="/*...*/" />
-              <marker date="1550295923404" expanded="true" signature="2034:2183" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="2053:2103" ph="{&quot;name&quot;: 'jerry'...}" />
-              <marker date="1550295923404" expanded="true" signature="2216:2238" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="2561:2767" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="2679:2709" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="2714:2746" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="3278:3446" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="3362:3390" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="3395:3425" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="5614:5634" ph="/*...*/" />
-              <marker date="1550295923404" expanded="true" signature="5677:5844" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="5696:5749" ph="{&quot;name&quot;: 'Jerry Ahn'...}" />
-              <marker date="1550295923404" expanded="true" signature="6950:6970" ph="/*...*/" />
-              <marker date="1550295923404" expanded="true" signature="7013:7174" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="7032:7085" ph="{&quot;name&quot;: 'Jerry Ahn'...}" />
-              <marker date="1550295923404" expanded="true" signature="7350:7383" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="7421:7690" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="7579:7619" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="7624:7666" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="7727:7942" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="7830:7870" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="7875:7917" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="8172:8411" ph="..." />
-              <marker date="1550295923404" expanded="true" signature="8454:8835" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="8520:8833" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="8639:8746" ph="//..." />
-              <marker date="1550295923404" expanded="true" signature="9006:9086" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="9088:9138" ph="//..." />
-              <marker date="1550295923404" expanded="true" signature="9201:9246" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="9335:9693" ph="{...}" />
-              <marker date="1550295923404" expanded="true" signature="9404:9691" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="1955:1975" ph="/*...*/" />
+              <marker date="1550296215227" expanded="true" signature="2025:2174" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="2044:2094" ph="{&quot;name&quot;: 'jerry'...}" />
+              <marker date="1550296215227" expanded="true" signature="2207:2229" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="2552:2758" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="2670:2700" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="2705:2737" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="3269:3437" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="3353:3381" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="3386:3416" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="5605:5625" ph="/*...*/" />
+              <marker date="1550296215227" expanded="true" signature="5668:5835" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="5687:5740" ph="{&quot;name&quot;: 'Jerry Ahn'...}" />
+              <marker date="1550296215227" expanded="true" signature="6941:6961" ph="/*...*/" />
+              <marker date="1550296215227" expanded="true" signature="7004:7165" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="7023:7076" ph="{&quot;name&quot;: 'Jerry Ahn'...}" />
+              <marker date="1550296215227" expanded="true" signature="7341:7374" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="7412:7681" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="7570:7610" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="7615:7657" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="7718:7933" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="7821:7861" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="7866:7908" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="8163:8402" ph="..." />
+              <marker date="1550296215227" expanded="true" signature="8445:8826" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="8511:8824" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="8630:8737" ph="//..." />
+              <marker date="1550296215227" expanded="true" signature="8997:9077" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="9079:9129" ph="//..." />
+              <marker date="1550296215227" expanded="true" signature="9192:9237" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="9326:9684" ph="{...}" />
+              <marker date="1550296215227" expanded="true" signature="9395:9682" ph="{...}" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-20-Hollywood Principle.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="362">
+            <caret line="210" column="0" lean-forward="true" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+            <folding>
+              <marker date="1550296215251" expanded="true" signature="1565:1568" ph="block quote: &gt;목표&#10;&gt;채용(구직과 구인)&#10;&gt;요소의 구...들어있다." />
+              <marker date="1550296215251" expanded="true" signature="4119:4145" ph="{...}" />
+              <marker date="1550296215251" expanded="true" signature="4216:4245" ph="{...}" />
+              <marker date="1550296215251" expanded="true" signature="4550:4667" ph="{...}" />
+              <marker date="1550296215251" expanded="true" signature="4618:4665" ph="{...}" />
+              <marker date="1550296215251" expanded="true" signature="4762:4901" ph="{...}" />
+              <marker date="1550296215251" expanded="true" signature="5031:5535" ph="..." />
+              <marker date="1550296215251" expanded="true" signature="5341:5398" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-SOLID_SRP_OCP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-11-13-webJorney.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1636">
+            <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <folding>
+              <marker date="1540553319000" expanded="false" signature="4771:4943" ph="..." />
+              <marker date="1540553319000" expanded="true" signature="4998:5047" ph="/**...*/" />
+              <marker date="1540553319000" expanded="true" signature="5183:5268" ph="{...}" />
+              <marker date="1540553319000" expanded="true" signature="5401:5650" ph="{...}" />
+              <marker date="1540553319000" expanded="true" signature="5682:5717" ph="{}" />
+              <marker date="1540553319000" expanded="true" signature="5877:6340" ph="..." />
+              <marker date="1540553319000" expanded="true" signature="6086:6193" ph="..." />
+              <marker date="1540553319000" expanded="true" signature="6213:6317" ph="..." />
+              <marker date="1540553319000" expanded="true" signature="6923:7009" ph="/**...*/" />
+              <marker date="1540553319000" expanded="true" signature="7610:7916" ph="/**...*/" />
+              <marker date="1540553319000" expanded="true" signature="9950:10010" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-23-SOLID_LSP_ISP_DIP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            <folding>
+              <marker date="1550296566037" expanded="true" signature="4958:5000" ph="{...}" />
+              <marker date="1550296566037" expanded="true" signature="4977:4998" ph="{...}" />
+              <marker date="1550296566037" expanded="true" signature="5033:5075" ph="{...}" />
+              <marker date="1550296566037" expanded="true" signature="5052:5073" ph="{...}" />
+              <marker date="1550296566037" expanded="true" signature="5114:5163" ph="{...}" />
+              <marker date="1550296566037" expanded="true" signature="5136:5157" ph="{...}" />
+              <marker date="1550296566037" expanded="true" signature="5200:5244" ph="{...}" />
+              <marker date="1550296566037" expanded="true" signature="5221:5242" ph="{...}" />
+              <marker date="1550296566037" expanded="true" signature="5280:5311" ph="{...}" />
+              <marker date="1550296566037" expanded="true" signature="5291:5309" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-29-dataStructureChoice.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>

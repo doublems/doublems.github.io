@@ -8,9 +8,7 @@ tags:   SOLID Principles every Developer Should Know
 comments: true
 ---
 
-
-<img src="//doublems.github.io/assets/postphoto/softwareIsNotZenga.jpg" title=""  width="80%" height="80%">
-
+지난 글에 이어서 모든 개발자가 알아야만 하는 SOLID 원칙 (LSP/ISP/DIP)를 알아보겠습니다.
 
 ### Liskov Substitution Principle (리스코프 치환원칙:LSP)
 > 하위 클래스는 반드시 상위클래스와 대체 가능 해야 한다. 
@@ -21,7 +19,7 @@ comments: true
 
 우리의 예제를 살펴보도록 합시다.
 
-````
+````cfml
 //...
 function AnimalLegCount(a: Array<Animal>) {
     for(int i = 0; i <= a.length; i++) {
@@ -43,7 +41,7 @@ AnimalLegCount(animals);
 
 모든 새로운 Animal의 생성을 할때, 위의 AnimalLegCount() 는 새로운 Animal을 받아드릴 수 있도록 반드시 수정되어야 합니다.
 
-````
+````cfml
 //...
 class Pigeon extends Animal {
         
@@ -75,7 +73,7 @@ AnimalLegCount(animals);
 
 이제 LSP를 따르도록, AnimalLegCount()를 새로 구현해보겠습니다.
 
-````
+````cfml
 function AnimalLegCount(a: Array<Animal>) {
     for(let i = 0; i <= a.length; i++) {
         a[i].LegCount();
@@ -89,7 +87,7 @@ AnimalLegCount()는 전달된 Animal의 타입에 대해서는 관심이 없고,
 파라미터는 Animal 타입(Animal 클래스나 Animal의 하위 클래스)이어야만 한다는 것이 위 코드에서 알 수 있는 전부입니다.
 
 **Animal 클래스는 이제 LegCount() 메소드만 구현/정의 하기만 하면 됩니다.**
-````
+````cfml
 class Animal {
     //...
     LegCount();
@@ -126,7 +124,7 @@ Lion 클래스 타입의 아규먼트가 AnimalLegCount() 메소드로 전달 �
 이 원칙은 커다란 인터페이스의 구현에 관한 단점을 다룹니다.
 아래의 Shape 인터페이스를 보세요.
 
-````
+````cfml
 interface Shape {
     drawCircle();
     drawSquare();
@@ -136,7 +134,7 @@ interface Shape {
 
 이 인터페이스는 Squares와 circles, rectangles를 그립니다. Shape 인터페이스를 구현하고 있는 클래스 Circle, Square,Rectangle는 반드시 메소드 drawCircle(), drawSquare(),drawRectangle()를 정의해야 합니다.
 
-````
+````cfml
 class Circle implements Shape {
     drawCircle(){
         //...
@@ -176,7 +174,7 @@ class Rectangle implements Shape {
 
 만약 우리가 drawTriangle()과 같은 다른 메소드를 Shape 인터페이스에 추가 한다면 아래와 같을겁니다.
 
-````
+````cfml
 interface Shape {
     drawCircle();
     drawSquare();
@@ -206,7 +204,7 @@ ISP는 이런 Shape 인터페이스의 설계에 대해서 질색으로 싫어 �
 
 Shape 인터페이스를 ISP 원칙을 따르도록 만드는 것은 행위(action)를 다른 인터페이스로 분리하는 것을 말합니다.
 
-````
+````cfml
 interface Shape {
 draw();
 }
@@ -277,7 +275,7 @@ ISqurae 는 Squre그리는 일만. 그리고 IRectangle은 rectangles를 그리�
 
 (* 역자주: Http 클래스는 Constructor를 통한 XMLHttpService 클래스의 의존성 삽입의 사례를 나타내고 있습니다.)
 
-````
+````cfml
 class XMLHttpService extends XMLHttpRequestService {}
 
 class Http {
@@ -299,7 +297,7 @@ class Http {
 따라서 **'Connection 인터페이스'를 만들어, 사용중인 Http 서비스 타입들에 대해 덜 신경 써야합니다**. 
 
 
-````
+````cfml
 interface Connection {
     request(url: string, opts:any);
 }
@@ -307,7 +305,7 @@ interface Connection {
 
 request 메소드를 갖고 있는 Connection 인터페이스를 이용하여 Http를 개선 할 수 있습니다. Connection 인터페이스 타입의 Argument를 Http 클래스로 전송합니다.
 
-````
+````cfml
 class Http {
 constructor(private httpConnection: Connection) { }
 
@@ -323,7 +321,7 @@ constructor(private httpConnection: Connection) { }
 
 Http에 전달된 Http 연결 서비스 유형에 관계없이 네트워크 연결 유형을 알지 않고도 쉽게 네트워크에 연결할 수 있습니다.
 이제 XMLHttpService 클래스를 다시 구현하여 Connection 인터페이스를 구현할 수 있습니다.
-````
+````cfml
 class XMLHttpService implements Connection {
     const xhr = new XMLHttpRequest();
     //...
@@ -335,7 +333,7 @@ class XMLHttpService implements Connection {
 ````
 많은 Http Connection 타입을 만들고 Http 클래스에 에러와 같은 야단법석한 일들은 피해서 전송 할 수 있습니다. 
 
-````
+````cfml
 class NodeHttpService implements Connection {
     request(url: string, opts:any) {
         //...

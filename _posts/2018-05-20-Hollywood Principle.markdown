@@ -7,6 +7,8 @@ categories: Programming
 tags:   Hollywood Principle
 comments: true
 ---
+세계적으로 영화와 연관된 키워드로 유명한 헐리우드가 있다.
+
 ## 헐리우드 원칙이란? <br>
 헐리우드 원칙(Hollywood Principle)이란 아래와 같다
 
@@ -139,7 +141,7 @@ IoC와 DI를 사용하는 범주는 API와 Framework라고 할 수 있다.
 callback을 통해 인수로 함수를 넣어 주게 되면, 수행해야 할 변수와 동작까지 지정이 가능하다.
 
 ### 헐리우드 예제 코드 JS
-````
+````javascript
 //헐리우드 적용 전
 let name = "apple";
  
@@ -164,7 +166,7 @@ call(name);
 헐리우드 적용전에는 TextEditor() 메소드가 SpellChecker 인스턴스를 생성했다.<br>
 그러나 적용 후에는 프레임워크가 빈등록과정을 통해서 SpellChecker를 생성후 파라미터로 삽입해주었다.(Dependency Injection)<br>
 이경우에도, DI로 같은 클래스의 인스턴스라면 얼마든지 교체 할 수 있다. 프로퍼티의 정의를 다른곳에 위임 해준 것이다.
-````
+````javascript
 //헐리우드 적용 전
  
 public class TextEditor {
@@ -184,7 +186,8 @@ public class TextEditor {
       this.spellChecker = spellChecker;
    }
 }
- 
+```` 
+````xml
 ////빈등록
 <?xml version = "1.0" encoding = "UTF-8"?>
  

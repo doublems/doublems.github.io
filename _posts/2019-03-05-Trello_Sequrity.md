@@ -13,6 +13,7 @@ comments: true
 고쳐지지 않은 버그, 보안취약점, SNS자격증명, 이메일 주소, 서버 및 관리자 대시보드 정보 등은 검색엔진이 인덱싱 해놓은 퍼블릭 트렐로 보드에 있다면, 누구나 쉽게 이런 정보를 찾을 수 있습니다.
 
 ##어떻게 발견했나?
+
 저는 아래 쿼리를 통해서 Jira의 [버그바운티]를 운영하는 Jira 인스턴스를 검색 중이었습니다.
 
 ````sql
@@ -65,7 +66,7 @@ inurl:https://trello.com AND intext:ssh AND intext:password
 
 <img src="//doublems.github.io/assets/postphoto/20190305/trello_issue5.png" title=""  width="100%" height="100%">
 
-어떤 NGO는 수많은 개인정보와 기부자 및 재정정보를 가지고 있는 기부자 관리 소프트웨어 (데이터베이스) 접속방법을 공유하고 있었습니다.
+어떤 NGO는 수많은 기부자 개인정보와 기부 재정정보를 가지고 있는 기부자 관리 소프트웨어 (데이터베이스) 접속방법을 공유하고 있었습니다.
 
 아홉 시간동안 이런 정보를 찾고, 가장 민감한 정보를 노출하고있는 25개의 회사의 연락처를 찾아서 이 사실을 알려주었습니다. 25개의 연락처 정보를 찾는 일은 굉장히 지루하고 도전적인 일이었습니다.
 
@@ -79,7 +80,6 @@ inurl:https://trello.com AND intext:ssh AND intext:password
 
 이런 사실을 발견한지 거의 10시간이 됬을 무렵, 버그바운티 프로그램을 운영하는 회사를 대상으로 테스팅 하기 시작했습니다.
 
-그다음에 잘 알려진 회사들을 찾기 시작하였습니다. 
 
 ````sql
 inurl:https://trello.com AND intext:[company_name]
@@ -92,6 +92,9 @@ inurl:https://trello.com AND intext:[company_name]
 일부는 대기업 이었지만 많은 곳들이 버그바운티 프로그램을 운영하지 않았습니다.
 
 버그바운티를 운영하는 곳에서도 이미 인지된 문제로 보상을 거절하기도 하였습니다.
+
+________
+
 
 ###[Kushagra Pathak]님 추가활동
 

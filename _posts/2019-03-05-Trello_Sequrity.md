@@ -10,9 +10,11 @@ comments: true
 
 저는 2018년 4월 25일 조사를 하면서 수 많은 개인 및 회사의 민감성 정보가 퍼블릭 [트렐로] 보드에 있는 것을 찾았습니다.
 
-고쳐지지 않은 버그, 보안취약점, SNS자격증명, 이메일 주소, 서버 및 관리자 대시보드 정보 등은 검색엔진이 인덱싱 해놓은 퍼블릭 트렐로 보드에 있다면, 누구나 쉽게 이런 정보를 찾을 수 있습니다.
+고쳐지지 않은 버그, 보안취약점, SNS자격증명, 이메일 주소, 서버 및 관리자 대시보드 정보 등은 검색엔진이 인덱싱 해놓은 퍼블릭 트렐로 보드에 있다면,
+ 
+**누구나 쉽게 이런 정보를 찾을 수 있습니다.**
 
-###어떻게 발견했나?
+### 어떻게 발견했나?
 
 저는 아래 쿼리를 통해서 Jira의 [버그바운티]를 운영하는 Jira 인스턴스를 검색 중이었습니다.
 
@@ -28,14 +30,16 @@ inurl:jira AND intitle:login AND inurl:[company_name]
 
 결과에는 Jira 인스턴스로 로그인하는 정보들이 있었습니다. 이때가 8:19 AM UTC 쯤 이였습니다.
 
-저는 너무 놀랍고 충격에 휩싸였습니다.
+**저는 너무 놀랍고 충격에 휩싸였습니다.**
 
 <img src="//doublems.github.io/assets/postphoto/20190305/trello_issue0.png" title=""  width="100%" height="100%">
+
 그렇다면 왜 이런 문제가 있었을까요? 트렐로는 프로젝트 및 개인 일정 관리를 위한 온라인 도구이기 때문입니다.
 트렐로는 보드를 통해서 프로젝트와 일정을 관리합니다. 사용자는 보드를 개인용(private) 혹은 공개용(Public)으로 설정 할 수 있습니다.
-여기서 공개용으로 설정한 내용이 노출 되는 것 입니다. 
+여기서 **공개용으로 설정한 내용이 노출** 되는 것 입니다.
 
 이메일 계정 자격 증명과 같은 다른 정보를 찾아보기로 했습니다.
+
 <img src="//doublems.github.io/assets/postphoto/20190305/trello_issue1.png" title=""  width="100%" height="100%">
 
 ````sql
@@ -51,13 +55,13 @@ inurl:https://trello.com AND intext:ssh AND intext:password
 
 <img src="//doublems.github.io/assets/postphoto/20190305/trello_issue2.png" title=""  width="100%" height="100%">
 
-###내가 찾은 것
+### 내가 찾은 것
 
 이러한 방법으로 몇 시간정도 찾은 결과, 더 놀라운 사실을 발견했습니다.
 
 <img src="//doublems.github.io/assets/postphoto/20190305/trello_issue3.png" title=""  width="100%" height="100%">
 
-어떤 회사는 퍼블릭 트렐로 보드를 자사 웹사이트 및 어플리케이션의 버그관리와 보안 취약점을 관리하는 용도로 사용하고 있었습니다.
+어떤 회사는 퍼블릭 트렐로 보드를 **자사 웹사이트 및 어플리케이션의 버그관리와 보안 취약점을 관리하는 용도**로 사용하고 있었습니다.
 
 <img src="//doublems.github.io/assets/postphoto/20190305/trello_issue4.png" title=""  width="100%" height="100%">
 
@@ -66,7 +70,7 @@ inurl:https://trello.com AND intext:ssh AND intext:password
 
 <img src="//doublems.github.io/assets/postphoto/20190305/trello_issue5.png" title=""  width="100%" height="100%">
 
-어떤 NGO는 수많은 기부자 개인정보와 기부 재정정보를 가지고 있는 기부자 관리 소프트웨어 (데이터베이스) 접속방법을 공유하고 있었습니다.
+어떤 **NGO는 수많은 기부자 개인정보와 기부 재정정보를 가지고 있는 기부자 관리 소프트웨어 (데이터베이스) 접속방법을 공유**하고 있었습니다.
 
 아홉 시간동안 이런 정보를 찾고, 가장 민감한 정보를 노출하고있는 25개의 회사의 연락처를 찾아서 이 사실을 알려주었습니다. 25개의 연락처 정보를 찾는 일은 굉장히 지루하고 도전적인 일이었습니다.
 
@@ -85,7 +89,7 @@ inurl:https://trello.com AND intext:ssh AND intext:password
 inurl:https://trello.com AND intext:[company_name]
 ````
 
-###이후
+### 이후
 
 이런 사실을 해당 회사의 보안팀에 알렸으나, 일부 회사는 이미 처리중인 문제라는 응답을 주었습니다. 
 
@@ -96,7 +100,7 @@ inurl:https://trello.com AND intext:[company_name]
 ________
 
 
-####[Kushagra Pathak]님 추가활동
+#### [Kushagra Pathak]님 추가활동
 
 - 2018.05.18 - [미국정부]의 로그인 정보등을 포함한 민감정보가 노출 신고
 

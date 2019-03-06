@@ -16,13 +16,14 @@ ________
 ## "간단한 구글 쿼리로 수십개의 퍼블릭 트렐로에서 패스워드 얻는 방법"
 ________
 
-*본 자료는 [Kushagra Pathak]님이 Medium에서 작성한 글 입니다. Doublem.org는 저자의 허락을 받아 번역하여 대한민국에 소개하고 있습니다.
+>*본 자료는 [Kushagra Pathak]님이 Medium에서 작성한 글 입니다. Doublem.org는 저자의 허락을 받아 번역하여 대한민국에 소개하고 있습니다.
 
-*개인정보보안을 위한 공익목적으로 공개하는 자료입니다. 악의적 사용시 책임은 본인에게 있습니다.  
+>*개인정보보안을 위한 공익목적으로 공개하는 자료입니다. 악의적 사용시 책임은 본인에게 있습니다.  
 
-*Original article is written by [Kushagra Pathak]. Doublem.org, with the permission of the author, is translated and introduced to Korea.
+>*Original article is written by [Kushagra Pathak]. Doublem.org, with the permission of the author, is translated and introduced to Korea.
 
-*This information is for public interest. If you use for malicious, You must have responsibility.
+>*This information is for public interest. If you use for malicious, You must have responsibility.
+
 ________
 
 저는 2018년 4월 25일 조사를 하면서 수 많은 개인 및 회사의 민감성 정보가 퍼블릭 [트렐로] 보드에 있는 것을 찾았습니다.

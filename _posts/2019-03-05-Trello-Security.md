@@ -8,6 +8,23 @@ tags:   Trello Tip 보안
 comments: true
 ---
 
+요즘 트렐로를 프로젝트 관리 용도로 많이 사용합니다. 최근 미디엄에 올라온 글 중에서 눈여겨 볼 글이 있어서 이를 공유 하고자 합니다.
+전문은 아래와 같습니다. 
+
+________
+
+## "간단한 구글 쿼리로 수십개의 퍼블릭 트렐로에서 패스워드 얻는 방법"
+________
+
+*본 자료는 [Kushagra Pathak]님이 Medium에서 작성한 글 입니다. Doublem.org는 저자의 허락을 받아 번역하여 대한민국에 소개하고 있습니다.
+
+*개인정보보안을 위한 공익목적으로 공개하는 자료입니다. 악의적 사용시 책임은 본인에게 있습니다.  
+
+*Original article is written by [Kushagra Pathak]. Doublem.org, with the permission of the author, is translated and introduced to Korea.
+
+*This information is for public interest. If you use for malicious, You must have responsibility.
+________
+
 저는 2018년 4월 25일 조사를 하면서 수 많은 개인 및 회사의 민감성 정보가 퍼블릭 [트렐로] 보드에 있는 것을 찾았습니다.
 
 고쳐지지 않은 버그, 보안취약점, SNS자격증명, 이메일 주소, 서버 및 관리자 대시보드 정보 등은 검색엔진이 인덱싱 해놓은 퍼블릭 트렐로 보드에 있다면,
@@ -108,17 +125,6 @@ ________
 
 - 2018.09.24 - [UN]의 FTP, SNS, 내부정보 등 민감정보 누출 신고
 
-
-________
-
-*본 자료는 [Kushagra Pathak]님이 Medium에서 작성한 글 입니다. Doublem.org는 저자의 허락을 받아 번역하여 대한민국에 소개하고 있습니다.
-
-*개인정보보안을 위한 공익목적으로 공개하는 자료입니다. 악의적 사용시 책임은 본인에게 있습니다.  
-
-*Original article is written by [Kushagra Pathak]. Doublem.org, with the permission of the author, is translated and introduced to Korea.
-
-*This information is for public interest. If you use for malicious, You must have responsibility.
-________
 
 
 참고자료

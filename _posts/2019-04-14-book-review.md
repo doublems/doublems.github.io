@@ -39,11 +39,11 @@ OS 까지 고려해야 하는 상황을 만난적 없는 개발자도, 언젠가
 
 설명 방식은 개요 설명 이후에 그림과 함께 코드 -> 결과확인의 순으로 진행된다.
 여기서 과정 설명에서 텍스트로 이뤄진 내용을 도식화하여 보여주기 때문에 이해가 쉽다.
-<img src="//doublems.github.io/assets/postphoto/20190414/IMG_5828.JPG" title="표지"  width="100%" height="100%">
-<img src="//doublems.github.io/assets/postphoto/20190414/IMG_5829.JPG" title="body1"  width="100%" height="100%">
-<img src="//doublems.github.io/assets/postphoto/20190414/IMG_5830.JPG" title="body2"  width="100%" height="100%">
-<img src="//doublems.github.io/assets/postphoto/20190414/IMG_5831.JPG" title="body3"  width="100%" height="100%">
-<img src="//doublems.github.io/assets/postphoto/20190414/IMG_5833.JPG" title="body4"  width="100%" height="100%">
+<img src="//doublems.github.io/assets/postphoto/20190414/IMG_5828.JPG" title="표지"  width="70%" height="70%">
+<img src="//doublems.github.io/assets/postphoto/20190414/IMG_5829.JPG" title="body1"  width="70%" height="70%">
+<img src="//doublems.github.io/assets/postphoto/20190414/IMG_5830.JPG" title="body2"  width="70%" height="70%">
+<img src="//doublems.github.io/assets/postphoto/20190414/IMG_5831.JPG" title="body3"  width="70%" height="70%">
+<img src="//doublems.github.io/assets/postphoto/20190414/IMG_5833.JPG" title="body4"  width="70%" height="70%">
 
 하지만 그 내용이 담고 있는 컨텐츠와 단어 그리고 문맥의 흐은 가볍게 읽기에는 초보자에게는 버거울수 있다.
 따라서, 별도의 스터디나 참고 자료를 활용하여 추가적인 보충 활동을 수행해야 할 것으로 보인다.

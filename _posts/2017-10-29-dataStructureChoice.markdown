@@ -2,7 +2,7 @@
 layout: post
 title:  "데이터 구조 선택도"
 date:   2017-10-29 00:20:59
-author: Jerry Ahn(안재열)
+author: Jay Ahn(안재열)
 categories: Web Programming
 tags:   Java
 comments: true

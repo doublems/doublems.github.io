@@ -2,7 +2,7 @@
 layout: post
 title:  "헐리우드원칙과 DIP구현"
 date:   2018-06-14 10:29:00
-author: Jerry Ahn(안재열)
+author: Jay Ahn(안재열)
 categories: Programming
 tags:   Hollywood Principle DIP js java
 comments: true

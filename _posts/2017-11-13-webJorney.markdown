@@ -2,7 +2,7 @@
 layout: post
 title:  "Eclipse Web project로의 여정"
 date:   2017-11-13 00:20:59
-author: Jerry Ahn(안재열)
+author: Jay Ahn(안재열)
 categories: Web Programming
 tags:   Eclipse Java Web
 comments: true

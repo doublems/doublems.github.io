@@ -2,7 +2,7 @@
 layout: post
 title:  "간단한 구글 쿼리로 수십개의 퍼블릭 트렐로에서 패스워드 얻는 방법"
 date:   2019-03-05 00:10:00
-author: Jerry Ahn(안재열)
+author: Jay Ahn(안재열)
 categories: Trello
 tags:   Trello Tip 보안
 comments: true

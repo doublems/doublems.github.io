@@ -2,7 +2,7 @@
 layout: post
 title:  "헐리우드 원칙"
 date:   2018-05-20 19:00:00
-author: Jerry Ahn(안재열)
+author: Jay Ahn(안재열)
 categories: Programming
 tags:   Hollywood Principle
 comments: true

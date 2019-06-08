@@ -31,7 +31,8 @@ REST API를 만드는 개발자들이 흔하게 **실수하는 것은 REST API�
 
 > **ORM**
  
-> 객체 모델링(Object Oriented Modeling)과 관계형 데이터 모델링(Relational Data Modeling) 사이의 불일치를 해결해 주는 OR Mapping 서비스로, 본 글의 저자는 ORM 모델을 DB 스키마를 반영한 Class를 이야기 합니다.
+> 객체 모델링(Object Oriented Modeling)과 관계형 데이터 모델링(Relational Data Modeling) 사이의 불일치를 해결해 주는 OR Mapping 서비스로,
+> 본 글의 저자는 ORM 모델을 DB 스키마를 반영한 Entity Class 를 말함.
 > - 역자 주 / 참고 [http://www.egovframe.go.kr-ORM]
 
 저는 이런 동작들의 상호 매칭은 자연스러운 일이라고 인정합니다.

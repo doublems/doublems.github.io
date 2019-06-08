@@ -101,10 +101,13 @@ A) 알았어요. 크기와 범위는 직접적인 관계가 있습니다. API가
 따라서 API가 많이 작다면 설계에 따라 애매모호하고 일반적일 것이며, 컨텍스트도 필요치 않습니다. CRUD 기능과 REST 엔드포인트를 단순하게 매핑 할 수 있습니다. 하지만 해당 API의 개선을 주시해야 할 필요가 있습니다.
 
 만약, 스스로 API에 유지보수를 위해서 타입이나 조건을 추가하려 하고 있다면 지금까지의 내용과 접근법을 고려해야합니다. 
+
 ________
+
 *본 자료는 [Thiago Marini]님이 Medium에서 작성한 글 입니다. Doublem.org는 저자의 허락을 받아 번역하여 대한민국에 소개하고 있습니다.
 
 *Original article is written by [Thiago Marini]. Doublem.org, with the permission of the author, is translated and introduced to Korea.
+
 ________
 
 참고자료

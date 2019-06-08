@@ -4,7 +4,7 @@ title:  "저기요, REST API는 데이터베이스가 아니에요"
 date:   2019-06-08 23:00:00
 author: Jay Ahn(안재열)
 categories: Programming
-tags:   API, REST
+tags:   API REST Design
 comments: true
 ---
 

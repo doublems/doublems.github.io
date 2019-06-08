@@ -14,6 +14,8 @@ comments: true
 
 이에 앞서, Medium에 영국에서 리드 개발자로 일하시는 [Thiago Marini] 님이 REST 방식의 Open API를 구성 할 때 고민해야 할 점을 설명한 글이 있어서 소개하고자 합니다.
 
+________
+
 ### 저기요, REST API는 데이터베이스가 아니에요 : [Guys, REST APIs are not Databases]
 
 <img src="//doublems.github.io/assets/postphoto/20190608/guy_rest.png" title="main_poster"  width="70%" height="70%">

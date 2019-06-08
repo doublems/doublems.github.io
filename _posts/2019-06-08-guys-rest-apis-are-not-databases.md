@@ -124,11 +124,11 @@ ________
 - [https://ko.wikipedia.org/wiki/graphql](https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9E%98%ED%94%84QL)
 - [GraphQL](https://graphql.org/)
 
-[Guys, REST APIs are not Databases]:https://medium.com/@marinithiago/guys-rest-apis-are-not-databases-60db4e1120e4
-[http://www.egovframe.go.kr-ORM]:http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:rte2:psl:orm
-[https://blog.npcode.com/]:https://blog.npcode.com/2017/04/03/rest%EC%9D%98-representation%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/
-[rfc7231#section-3.1]:https://tools.ietf.org/html/rfc7231#section-3.1
-[https://ko.wikipedia.org/wiki/graphql]:https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9E%98%ED%94%84QL
-[GraphQL]:https://graphql.org/
-[Trumpia]:https://trumpia.com
+[Guys, REST APIs are not Databases]: https://medium.com/@marinithiago/guys-rest-apis-are-not-databases-60db4e1120e4
+[http://www.egovframe.go.kr-ORM]: http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:rte2:psl:orm
+[https://blog.npcode.com/]: https://blog.npcode.com/2017/04/03/rest%EC%9D%98-representation%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/
+[rfc7231#section-3.1]: https://tools.ietf.org/html/rfc7231#section-3.1
+[https://ko.wikipedia.org/wiki/graphql]: https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9E%98%ED%94%84QL
+[GraphQL]: https://graphql.org/
+[Trumpia]: https://trumpia.com
 [Thiago Marini]: https://www.linkedin.com/in/marinithiago/?originalSubdomain=uk

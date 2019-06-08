@@ -8,7 +8,7 @@ tags:   API REST Design
 comments: true
 ---
 
-현재 재직중인 회사([Trumpia])에서 Open API를 개발자로 일하고 있습니다.
+현재 [재직중인 회사]에서 Open API를 개발자로 일하고 있습니다.
 일하면서 느꼈던 점은 Open API를 디자인 및 구성 해야 할 때 고려해야 할 사항이 다양하고 많다는 점입니다. 
 곧 경험을 공유하는 글을 게시하도록 하겠습니다. :)
 
@@ -130,5 +130,5 @@ ________
 [rfc7231#section-3.1]: https://tools.ietf.org/html/rfc7231#section-3.1
 [https://ko.wikipedia.org/wiki/graphql]: https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9E%98%ED%94%84QL
 [GraphQL]: https://graphql.org/
-[Trumpia]: https://trumpia.com
+[재직중인 회사]: https://trumpia.com
 [Thiago Marini]: https://www.linkedin.com/in/marinithiago/?originalSubdomain=uk

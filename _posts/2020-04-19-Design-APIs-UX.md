@@ -259,7 +259,7 @@ API를 개발하는 동안 모든 새 개발자가 자신만의 스타일로 엔
 사람들이 빨리 시작할 수 있도록 컬렉션을 가져와서 시작할 수 있는 템플릿으로도 시작 할 수 있어요.
 
 <img src="//doublems.github.io/assets/postphoto/20200419/200419-06.gif" title="main_poster">
-*The UX API Template
+*The UX API Template*
 
 ________
 

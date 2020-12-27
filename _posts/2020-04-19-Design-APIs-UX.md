@@ -8,7 +8,7 @@ tags:   API UX Design
 comments: true
 ---
 
-현재 [재직중인 회사]에서 API 개발자로 일하고 있습니다.
+현재 API 개발자로 일하고 있습니다.
 일하면서 느꼈던 점은 API를 디자인 및 구성 해야 할 때 사용자 경험(UX)을 늘 고민해야 한다는 것들입니다.
 
 과연, 내가 만든 API를 보고 회사 내부의 프론트엔드 개발자분들은 편안함을 느낄 수 있을까? 다른 회사의 고객들은 우리의 Open API를 보고 어떤 생각일까?
@@ -292,7 +292,6 @@ ________
 
 [Design APIs like you design User Experience]: https://medium.com/better-practices/design-apis-like-you-design-user-experience-a7adeb2ee90f
 [사용자경험]: https://en.wikipedia.org/wiki/User_experience_design
-[재직중인 회사]: https://trumpia.com
 [Prashant Agrawal]: https://www.linkedin.com/in/prashantagrawal1/
 [POSTMAN]: https://www.postman.com/
 [더욱이 설계 단계에서 API를 변경하면 쉽고 저렴하게 수행 할 수 있습니다.]: https://medium.com/better-practices/api-first-software-development-for-modern-organizations-fdbfba9a66d3

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89f58805-5a80-4134-ab3c-170b993f8f43" name="Default" comment="오기수정">
+    <list default="true" id="89f58805-5a80-4134-ab3c-170b993f8f43" name="Default" comment="제목수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-04-30-book-review-04.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-30-book-review-04.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +33,21 @@
     <property name="SearchEverywhereHistoryKey" value="plugins&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plu&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/postphoto/20200430" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/postphoto/20200531" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/postphoto/20200531" />
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/assets/postphoto/20200430" />
+      <recent name="$PROJECT_DIR$/assets/postphoto/20200411" />
+      <recent name="$PROJECT_DIR$/assets/postphoto/20190414" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/postphoto/20200419" />
       <recent name="$PROJECT_DIR$/assets/postphoto" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/postphoto/20200430" />
-      <recent name="$PROJECT_DIR$/_posts" />
-      <recent name="$PROJECT_DIR$/assets/postphoto/20200411" />
-      <recent name="$PROJECT_DIR$/assets/postphoto/20190414" />
-      <recent name="$PROJECT_DIR$/assets/postphoto/20190305" />
     </key>
   </component>
   <component name="RunManager">
@@ -125,28 +124,13 @@
       <workItem from="1586684158472" duration="588000" />
       <workItem from="1586685044487" duration="581000" />
       <workItem from="1586693707043" duration="6005000" />
-      <workItem from="1588253313174" duration="3224000" />
-    </task>
-    <task id="LOCAL-00007" summary="fontawesome 추가">
-      <created>1523794044104</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1523794044104</updated>
-    </task>
-    <task id="LOCAL-00008" summary="이미지 수정 및 타이틀 수정">
-      <created>1523798607026</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1523798607026</updated>
-    </task>
-    <task id="LOCAL-00009" summary="footer 수정">
-      <created>1523799184930</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1523799184930</updated>
+      <workItem from="1588253313174" duration="3550000" />
+      <workItem from="1590930057855" duration="2469000" />
+      <workItem from="1592144324280" duration="575000" />
+      <workItem from="1592183665554" duration="1193000" />
+      <workItem from="1593913182550" duration="598000" />
+      <workItem from="1594294108982" duration="118000" />
+      <workItem from="1595241111424" duration="34000" />
     </task>
     <task id="LOCAL-00010" summary="불필요한 코드 삭제">
       <created>1523799460854</created>
@@ -470,7 +454,28 @@
       <option name="project" value="LOCAL" />
       <updated>1588256700751</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="제목수정">
+      <created>1588256892281</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1588256892281</updated>
+    </task>
+    <task id="LOCAL-00057" summary="제목수정">
+      <created>1588256977676</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1588256977676</updated>
+    </task>
+    <task id="LOCAL-00058" summary="제목수정">
+      <created>1590932248669</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1590932248670</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,24 +501,32 @@
     <MESSAGE value="이미지 크기 수정" />
     <MESSAGE value="개발자 7년차 리뷰" />
     <MESSAGE value="날짜수정" />
-    <MESSAGE value="제목수정" />
     <MESSAGE value="보기 쉽게 수정" />
     <MESSAGE value="UX - API 초안 업로드" />
     <MESSAGE value="포맷팅 수정" />
     <MESSAGE value="리팩터링 2판 리뷰" />
     <MESSAGE value="오기수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="오기수정" />
+    <MESSAGE value="제목수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="제목수정" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="162" key="CommitChangelistDialog2" timestamp="1588256700635">
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590932131903">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="491" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1588256700635" />
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1590932131903" />
+    <state x="491" y="162" key="CommitChangelistDialog2" timestamp="1590932248399">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="491" y="162" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1590932248399" />
     <state x="491" y="171" key="CommitChangelistDialog2/0.23.1792.1020@0.23.1792.1020" timestamp="1587308879199" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1588256702371">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1590932250533">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1588256702371" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1590932250533" />
     <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.23.1792.1020@0.23.1792.1020" timestamp="1587308880897" />
+    <state x="263" y="182" key="new project wizard" timestamp="1592216126269">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="263" y="182" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1592216126269" />
   </component>
 </project>

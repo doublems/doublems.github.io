@@ -2,7 +2,10 @@
 layout: post
 title:  "간단한 구글 쿼리로 수십개의 퍼블릭 트렐로에서 패스워드 얻는 방법"
 date:   2019-03-05 00:10:00
-author: Jay Ahn(안재열)
+author: Jay Ahn
+subtitle: 트렐로 사용시 보안 취약점
+description: 요즘 트렐로를 프로젝트 관리 용도로 많이 사용합니다. 최근 미디엄에 올라온 글 중에서 눈여겨 볼 글이 있어서 이를 공유 하고자 합니다.
+image: https://doublems.github.io/assets/postphoto/20190305/trello_issue0.png
 categories: Trello
 tags:   Trello Tip 보안
 comments: true

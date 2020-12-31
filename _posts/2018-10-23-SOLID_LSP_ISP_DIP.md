@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "모든 개발자가 알아야만 하는 SOLID 원칙 - 2편(LSP/ISP/DIP)"
+title:  "모든 개발자가 알아야만 하는 SOLID 원칙 - 2편"
 date:   2018-10-23 23:00:00
-author: Jay Ahn(안재열)
+author: Jay Ahn
+subtitle: LSP/ISP/DIP
+description: 지난 글에 이어서 모든 개발자가 알아야만 하는 SOLID 원칙 (LSP/ISP/DIP)를 알아보겠습니다
+image: https://doublems.github.io/assets/postphoto/dip.png
 categories: Programming
 tags:   SOLID Principles every Developer Should Know
 comments: true

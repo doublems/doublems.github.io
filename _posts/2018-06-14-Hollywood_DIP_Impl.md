@@ -2,7 +2,10 @@
 layout: post
 title:  "헐리우드원칙과 DIP구현"
 date:   2018-06-14 10:29:00
-author: Jay Ahn(안재열)
+author: Jay Ahn
+subtitle: 헐리우드 원칙을 통한 비즈니스 문제의 해결 구현 방안
+description: 헐리우드 원칙을 통한 비즈니스 문제의 해결을 소스코드와 확인하자
+image: https://doublems.github.io/assets/postphoto/20180614/1.jpg
 categories: Programming
 tags:   Hollywood Principle DIP js java
 comments: true

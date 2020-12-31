@@ -2,8 +2,11 @@
 layout: post
 title:  "UX 디자인처럼 API 디자인하기"
 date:   2020-04-19 23:00:00
-author: Jay Ahn(안재열)
-categories: Programming
+author: Jay Ahn
+subtitle: postman로 UX 기반의 API 디자인을 알아봅니다
+description: API를 디자인 및 구성 해야 할 때 사용자 경험(UX)을 늘 고민해야 한다는 것들입니다.
+image: https://doublems.github.io/assets/postphoto/20200419/200419-01.jpeg
+categories: Programming, API, UX
 tags:   API UX Design
 comments: true
 ---

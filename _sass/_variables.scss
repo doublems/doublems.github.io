@@ -1,86 +1,24 @@
+/**
+ * Set up here the general appearance of the theme.
+ */
 
-//
-// VARIABLES
-//
+$themeColor: map-get($theme, themeColor) !default;
+$primaryDark: map-get($theme, primaryDark) !default;
+$accentDark: map-get($theme, accentDark) !default;
+$lightGray: map-get($theme, lightGray) !default;
+$texts: map-get($theme, texts) !default;
 
-// Colors
-$blue: #4183C4;
+// Breakpoints
+$breakpoints: (
+  sm: 37.5rem
+);
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+// Margins
+$rowMargin: 10px;
+$itemMargin: 15px;
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+// Sizes
+$itemMinWidth: 300px;
 
-// Fonts
-$base-font: 'Nanum Barun Gothic', 'Nanum Gothic', 'Spoqa Han Sans', 'Source Sans Pro', 'Apple SD Gothic Neo', 'Verdana', 'Arial', 'Dotum', sans-serif;
-$code-font: 'Menlo', 'Courier New', 'Monaco', 'Spoqa Han Sans', monospace;
-
-// Font sizes
-$base-font-size: 16px;
-$small-font-size: 12px;
-
-// Colors
-$base-color: $oc-gray-8;
-$base-lighten-color: $oc-gray-6;
-
-$text-color: $base-color;
-$link-color: $oc-blue-8;
-$divider-color: $oc-gray-1;
-
-$table-border-color: $oc-gray-2;
-$table-background-color: $oc-gray-1;
-
-$blockquote-color: $base-lighten-color;
-$blockquote-border-color: $oc-gray-3;
-
-$footnote-link-border-color: $oc-gray-1;
-$footnote-link-background-over-color: $oc-gray-1;
-
-$selection-color: $oc-black;
-$selection-background-color: $oc-gray-1;
-
-$pagination-color: $oc-gray-6;
-$pagination-over-color: $oc-gray-7;
-
-$tag-index-label-color: $base-color;
-$tag-index-label-background-color: $oc-gray-2;
-$tag-index-count-background-color: $oc-gray-3;
-
-$footer-border-color: $oc-gray-2;
-$footer-background-color: $oc-gray-1;
-
-// List
-$li-bottom-space: 0.4em;
-$li-bullets-width: 1.4em;
-$li-line-height: 1.55;
-
-$ul-bullets-font: inherit;
-$ul-bullets-font-size: 1.4em;
-$ul-bullets-font-line-height: 1.2;
-$ul-bullets-right-space: .3em;
-
-$ol-bullets-font: inherit;
-$ol-bullets-font-size: 1em;
-$ol-bullets-font-line-height: inherit;
-$ol-bullets-right-space: .3em;
-
-$li-child-size-ratio: 0.95;
-
-$dt-width: 180px;
-$dt-dd-space: 20px;
-$dd-position: $dt-width+$dt-dd-space;
-
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
-}
+// Settings
+$maxItemsPerRow: 6;

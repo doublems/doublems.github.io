@@ -2,7 +2,10 @@
 layout: post
 title:  "헐리우드 원칙"
 date:   2018-05-20 19:00:00
-author: Jay Ahn(안재열)
+author: Jay Ahn
+subtitle: 헐리우드 원칙을 통한 비즈니스 문제의 해결과 소스코드 설계
+description: 헐리우드 원칙을 통한 비즈니스 문제의 해결과 소스코드 설계
+image: https://media.sandiegoreader.com/img/bands/leadart/Hollywood-Principle_t658.jpg?ff95ca2b4c25d2d6ff3bfb257febf11d604414e5
 categories: Programming
 tags:   Hollywood Principle
 comments: true

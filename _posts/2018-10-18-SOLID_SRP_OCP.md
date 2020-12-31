@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "모든 개발자가 알아야만 하는 SOLID 원칙 - 1편(SRP/OCP)"
+title:  "모든 개발자가 알아야만 하는 SOLID 원칙 - 1편"
 date:   2018-10-18 23:00:00
-author: Jay Ahn(안재열)
+author: Jay Ahn
+subtitle: SRP/OCP
+description: 객체지향 소프트웨어 개발의 새로운 설계를 위한 SOLID 원칙
+image: https://doublems.github.io/assets/postphoto/srp.jpeg
 categories: Programming
 tags:   SOLID Principles every Developer Should Know
 comments: true
@@ -10,11 +13,11 @@ comments: true
 
 객체지향 타입의 프로그래밍은 소프트웨어 개발의 새로운 설계를 불러왔습니다.
 
-개발자가 데이터와 같은 목적/기능을 클래스로 묶을 수 있으며, 전체 어플리케이션과 상관없이 단일 목적을 위해 이용 할 수 있습니다.
+개발자가 데이터와 같은 목적과 기능을 클래스로 묶을 수 있으며, 전체 어플리케이션과 상관없이 단일 목적을 위해 이용 할 수 있습니다.
 
 하지만, 객체지향프로그래밍은 유지보수가 어렵고, 코드가 혼란스러워지는 것을 예방하지는 않습니다.
 
-Robert C. Martin은 다섯 가지 지침을 개발했습니다. 다섯 가지 지침 / 원칙을 통해 개발자는 읽기 쉽고 유지 보수가 쉬운 프로그램을 쉽게 만들 수 있습니다. 
+Robert C. Martin은 다섯 가지 지침을 개발했습니다. 다섯가지 지침과 원칙을 통해 개발자는 읽기 쉽고 유지 보수가 쉬운 프로그램을 쉽게 만들 수 있습니다. 
 
 
 

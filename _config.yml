@@ -23,6 +23,10 @@ menu:
 email: jb7959@naver.com
 disqus_username: doublem-org
 
+# Contact Setting
+# https://formspree.io/
+contact_form_id: mayllkrg
+
 
 # Social Media Settings
 # Remove the item if you don't need it

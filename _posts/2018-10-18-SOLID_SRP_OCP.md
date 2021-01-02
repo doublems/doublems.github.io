@@ -58,7 +58,7 @@ ________________________________
 
 다음 아래의 예제 코드를 살펴보세요.
 
-````cfml
+````csharp
 class Animal {
     constructor(name: string){ }
     getAnimalName() { }
@@ -91,7 +91,7 @@ Animal 클래스는 SRP원칙을 위반했습니다.
 
 이런 시스템이 SRP를 따르도록, DB에 각 animal을 저장하는 단 하나의 책임을 관리 할 또 다른 클래스를 만들었습니다.
 
-````cfml
+````csharp
 class Animal {
     constructor(name: string){ }
     getAnimalName() { }
@@ -117,7 +117,7 @@ _____________________________________________
 
 계속해서 우리의 Animal 클래스를 살펴봅시다.
 
-````cfml
+````csharp
 class Animal {
     constructor(name: string){ }
     getAnimalName() { }
@@ -126,7 +126,7 @@ class Animal {
 
 우리는 Animal 리스트를 반복하고, 각 Animal의 울음소리를 반복하였습니다. 
 
-````cfml
+````csharp
 //...
 const animals: Array<Animal> = [
     new Animal('lion'),
@@ -143,11 +143,11 @@ function AnimalSound(a: Array<Animal>) {
 AnimalSound(animals);
 ````
 
-함수 AnimalSound()는 OCP를 따르지 않고 있습니다. 왜냐하면 새로운 종의 Animal에 대해서 닫혀있지 않기 때문이죠 .
+함수 `AnimalSound()`는 OCP를 따르지 않고 있습니다. 왜냐하면 새로운 종의 Animal에 대해서 닫혀있지 않기 때문이죠 .
 
 만약, 우리가 새로운 Animal, Snake를 추가한다면:
 
-````cfml
+````csharp
 //...
 const animals: Array<Animal> = [
     new Animal('lion'),
@@ -171,14 +171,14 @@ function AnimalSound(a: Array<Animal>) {
 AnimalSound(animals);
 ````
 
-여러분은 앞으로 보시게 될겁니다. 모든 새로운 Animal을 위해서 새로운 로직을 AnimalSound() 함수에 추가하는 것을 말이지요.
+여러분은 앞으로 보시게 될겁니다. 모든 새로운 Animal을 위해서 새로운 로직을 `AnimalSound()` 함수에 추가하는 것을 말이지요.
 
-이건 상당히 간단한 예제입니다. 우리의 어플리케이션이 커지고 복잡해질때, 여러분은 만나게 될 것입니다. 매시간 새로운 animal이 추가 될 때 마다, 'if' 조건문이 AnimalSound()함수에서 계속해서 반복되며 추가된다는 것을 말이에요.
+이건 상당히 간단한 예제입니다. 우리의 어플리케이션이 커지고 복잡해질때, 여러분은 만나게 될 것입니다. 매시간 새로운 animal이 추가 될 때 마다, 'if' 조건문이 `AnimalSound()`함수에서 계속해서 반복되며 추가된다는 것을 말이에요.
 
 
 어떻게 하면 AnimalSound가 OCP를 지킬 수 있도록 할까요?
 
-````cfml
+````csharp
 class Animal {
         makeSound();
         //...
@@ -207,9 +207,9 @@ function AnimalSound(a: Array<Animal>) {
 AnimalSound(animals);
 ````
 
-현재 Animal은 가상의 makeSound()를 가지고 있습니다. 우리는 Animal class를 확장하고 가상의 makeSound()를 구현하고 있는 각각의 animal을 가지고 있습니다.
+현재 Animal은 가상의 `makeSound()`를 가지고 있습니다. 우리는 Animal class를 확장하고 가상의 makeSound()를 구현하고 있는 각각의 animal을 가지고 있습니다.
 
-모든 animal은 자신의 makeSound()에서 울음소리에 관한 방법을 구현하고 있습니다. AnimalSound()는 animal 배열을 반복하며 makeSound() 메서드를 호출 할 뿐입니다.
+모든 animal은 자신의 `makeSound()`에서 울음소리에 관한 방법을 구현하고 있습니다. `AnimalSound()`는 animal 배열을 반복하며 `makeSound()` 메서드를 호출 할 뿐입니다.
 
 이제, 우리가 새로운 animal을 추가한다면, AnimalSound는 더이상 변경 할 필요가 없습니다. 우리가 할 일은 새로운 animal을 animal 배열에 추가하기만 하면 됩니다.
 
@@ -224,7 +224,7 @@ AnimalSound는 이제 OCP 원칙을 따르게 되었습니다.
 
 클래스는 아래와 같을겁니다.
 
-````cfml
+````csharp
 class Discount {
     giveDiscount() {
         return this.price * 0.2
@@ -234,7 +234,7 @@ class Discount {
 
 여기에 VIP 고객에게는 20%를 추가로 할인해주기로 결정했을때, 코드는 아래와 같을것입니다.
 
-````cfml
+````csharp
 class Discount {
     giveDiscount() {
         if(this.customer == 'fav') {
@@ -256,7 +256,7 @@ OCP 원칙을 준수하며 만드는 방법은 Discount를 확장하여 새로�
 
 추가된 신규 클래스에서 우리는 신규 행위를 구현 할 수 있을 것입니다.  
 
-````cfml
+````csharp
 class VIPDiscount: Discount {
     getDiscount() {
         return super.getDiscount() * 2;
@@ -266,7 +266,7 @@ class VIPDiscount: Discount {
 
 만약, 80%의 할인율을 슈퍼 VIP 고객에게 적용하려면 아래와 같습니다.
 
-````cfml
+````csharp
 class SuperVIPDiscount: VIPDiscount {
     getDiscount() {
         return super.getDiscount() * 2;

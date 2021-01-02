@@ -22,8 +22,7 @@ comments: true
 
 우리의 예제를 살펴보도록 합시다.
 
-````cfml
-//...
+````csharp
 function AnimalLegCount(a: Array<Animal>) {
     for(int i = 0; i <= a.length; i++) {
         if(typeof a[i] == Lion)
@@ -44,7 +43,7 @@ AnimalLegCount(animals);
 
 모든 새로운 Animal의 생성을 할때, 위의 AnimalLegCount() 는 새로운 Animal을 받아드릴 수 있도록 반드시 수정되어야 합니다.
 
-````cfml
+````csharp
 //...
 class Pigeon extends Animal {
         
@@ -74,9 +73,9 @@ AnimalLegCount(animals);
 만약 상위클래스가 상위클래스 타입(Animal)을 반환한다면, 하위클래스는 상위클래스 타입(Animal) 또는 하위클래스 타입(Pigeon type)을 반드시 반환해야 합니다.
 
 
-이제 LSP를 따르도록, AnimalLegCount()를 새로 구현해보겠습니다.
+이제 LSP를 따르도록,  `AnimalLegCount()`를 새로 구현해보겠습니다.
 
-````cfml
+````csharp
 function AnimalLegCount(a: Array<Animal>) {
     for(let i = 0; i <= a.length; i++) {
         a[i].LegCount();
@@ -85,12 +84,12 @@ function AnimalLegCount(a: Array<Animal>) {
 AnimalLegCount(animals);
 ````
 
-AnimalLegCount()는 전달된 Animal의 타입에 대해서는 관심이 없고, 오직 다리의 숫자를 세는 것에만 관심이 있습니다.
+`AnimalLegCount()`는 전달된 Animal의 타입에 대해서는 관심이 없고, 오직 다리의 숫자를 세는 것에만 관심이 있습니다.
 
 파라미터는 Animal 타입(Animal 클래스나 Animal의 하위 클래스)이어야만 한다는 것이 위 코드에서 알 수 있는 전부입니다.
 
-**Animal 클래스는 이제 LegCount() 메소드만 구현/정의 하기만 하면 됩니다.**
-````cfml
+**Animal 클래스는 이제 `LegCount()` 메소드만 구현/정의 하기만 하면 됩니다.**
+````csharp
 class Animal {
     //...
     LegCount();
@@ -99,7 +98,7 @@ class Animal {
 
 그리고 하위 클래스들은 LegCount()메소드를 구현해야만 하죠.
 
-````
+````csharp
 //...
 class Lion extends Animal{
     //...
@@ -110,11 +109,11 @@ class Lion extends Animal{
 //...
 ````
 
-Lion 클래스 타입의 아규먼트가 AnimalLegCount() 메소드로 전달 될 때, LegCount()는 lion이 갖고 있는 다리의 숫자를 반환 할 것입니다.
+Lion 클래스 타입의 argument가 `AnimalLegCount()` 메소드로 전달 될 때, `LegCount()`는 lion이 갖고 있는 다리의 숫자를 반환 할 것입니다.
 
-이제 우리는 AnimalLegCount()가 다리 갯수를 세기 위해서 Animal의 타입에 대해 알 필요가 없다는 것을 볼 수 있습니다.
+이제 우리는 `AnimalLegCount()`가 다리 갯수를 세기 위해서 Animal의 타입에 대해 알 필요가 없다는 것을 볼 수 있습니다.
 
-단지 Animal 타입의 LegCount()만 호출하면 됩니다. 계약으로 인해, Animal클래스의 하위 클래스는 LegCount() 기능을 구현해야만 하거든요. 
+단지 Animal 타입의 `LegCount()`만 호출하면 됩니다. 계약으로 인해, Animal클래스의 하위 클래스는 `LegCount()` 기능을 구현해야만 하거든요. 
 
 ----
 
@@ -127,7 +126,7 @@ Lion 클래스 타입의 아규먼트가 AnimalLegCount() 메소드로 전달 �
 이 원칙은 커다란 인터페이스의 구현에 관한 단점을 다룹니다.
 아래의 Shape 인터페이스를 보세요.
 
-````cfml
+````csharp
 interface Shape {
     drawCircle();
     drawSquare();
@@ -135,9 +134,9 @@ interface Shape {
 }
 ````
 
-이 인터페이스는 Squares와 circles, rectangles를 그립니다. Shape 인터페이스를 구현하고 있는 클래스 Circle, Square,Rectangle는 반드시 메소드 drawCircle(), drawSquare(),drawRectangle()를 정의해야 합니다.
+이 인터페이스는 Squares와 circles, rectangles를 그립니다. Shape 인터페이스를 구현하고 있는 클래스 Circle, Square,Rectangle는 반드시 메소드  `drawCircle()`, `drawSquare()`,`drawRectangle()`를 정의해야 합니다.
 
-````cfml
+````csharp
 class Circle implements Shape {
     drawCircle(){
         //...
@@ -173,11 +172,11 @@ class Rectangle implements Shape {
 }
 ````
 
-위의 코드를 보면 꽤 재밌습니다. **클래스 Rectangle은 쓰이지 않는 메소드들(drawCircle()과 drawSquare())을 구현하고 있습니다.** 마찬가지로 Square 또한 사용되지않는 drawCircle()과 drawRactangle()을, Circle 클래스는 drawSquare(), drawSquare()를 구현하고 있습니다.
+위의 코드를 보면 꽤 재밌습니다. **클래스 Rectangle은 쓰이지 않는 메소드들(`drawCircle()`과 `drawSquare()`)을 구현하고 있습니다.** 마찬가지로 Square 또한 사용되지않는 `drawCircle()`과 `drawRactangle()`을, Circle 클래스는 `drawSquare()`, `drawSquare()`를 구현하고 있습니다.
 
 만약 우리가 drawTriangle()과 같은 다른 메소드를 Shape 인터페이스에 추가 한다면 아래와 같을겁니다.
 
-````cfml
+````csharp
 interface Shape {
     drawCircle();
     drawSquare();
@@ -207,7 +206,7 @@ ISP는 이런 Shape 인터페이스의 설계에 대해서 질색으로 싫어 �
 
 Shape 인터페이스를 ISP 원칙을 따르도록 만드는 것은 행위(action)를 다른 인터페이스로 분리하는 것을 말합니다.
 
-````cfml
+````csharp
 interface Shape {
 draw();
 }
@@ -253,7 +252,7 @@ class CustomShape implements Shape {
 
 ICircle 인터페이스는 오직 circle을 그리는 일만 하고 있으며, Shape는 그외의 도형들을 그리는 것을 다루고 있습니다. ^^
 
-ISqurae 는 Squre그리는 일만. 그리고 IRectangle은 rectangles를 그리는 일만 하고 있지요. 
+ISqurae 는 Squre그리는 일만. 그리고 `IRectangle`은 `rectangles`를 그리는 일만 하고 있지요. 
 
 
 ----
@@ -278,7 +277,7 @@ ISqurae 는 Squre그리는 일만. 그리고 IRectangle은 rectangles를 그리�
 
 (* 역자주: Http 클래스는 Constructor를 통한 XMLHttpService 클래스의 의존성 삽입의 사례를 나타내고 있습니다.)
 
-````cfml
+````csharp
 class XMLHttpService extends XMLHttpRequestService {}
 
 class Http {
@@ -295,12 +294,12 @@ class Http {
 
 이 설계는 DIP A를 위반하였습니다.(DIP A - 고수준의 모듈은 저수준의 모듈에 의존해선 안된다. 반드시 추상화에 의존 해야한다.)
 
-상위 코드의 Http 클래스는 XMLhttpService 클래스에 의존하도록 되어있습니다. 간혹, xmlHttpService 외에 다른 Http 연결 서비스를 사용 하고 싶을 수도 있습니다. 이럴때, 코드를 편집하기 위해서는 모든 Http 인스턴스(사용중인)를 고려하여 조심스레 수정해야합니다. 이는 OCP 원칙 위반이기도 합니다.
+상위 코드의 Http 클래스는 `XMLhttpService` 클래스에 의존하도록 되어있습니다. 간혹, `xmlHttpService` 외에 다른 Http 연결 서비스를 사용 하고 싶을 수도 있습니다. 이럴때, 코드를 편집하기 위해서는 모든 Http 인스턴스(사용중인)를 고려하여 조심스레 수정해야합니다. 이는 OCP 원칙 위반이기도 합니다.
 
 따라서 **'Connection 인터페이스'를 만들어, 사용중인 Http 서비스 타입들에 대해 덜 신경 써야합니다**. 
 
 
-````cfml
+````csharp
 interface Connection {
     request(url: string, opts:any);
 }
@@ -308,7 +307,7 @@ interface Connection {
 
 request 메소드를 갖고 있는 Connection 인터페이스를 이용하여 Http를 개선 할 수 있습니다. Connection 인터페이스 타입의 Argument를 Http 클래스로 전송합니다.
 
-````cfml
+````csharp
 class Http {
 constructor(private httpConnection: Connection) { }
 
@@ -323,8 +322,8 @@ constructor(private httpConnection: Connection) { }
 ````
 
 Http에 전달된 Http 연결 서비스 유형에 관계없이 네트워크 연결 유형을 알지 않고도 쉽게 네트워크에 연결할 수 있습니다.
-이제 XMLHttpService 클래스를 다시 구현하여 Connection 인터페이스를 구현할 수 있습니다.
-````cfml
+이제 `XMLHttpService` 클래스를 다시 구현하여 Connection 인터페이스를 구현할 수 있습니다.
+````csharp
 class XMLHttpService implements Connection {
     const xhr = new XMLHttpRequest();
     //...
@@ -336,7 +335,7 @@ class XMLHttpService implements Connection {
 ````
 많은 Http Connection 타입을 만들고 Http 클래스에 에러와 같은 야단법석한 일들은 피해서 전송 할 수 있습니다. 
 
-````cfml
+````csharp
 class NodeHttpService implements Connection {
     request(url: string, opts:any) {
         //...
@@ -351,7 +350,7 @@ class MockHttpService implements Connection {
 
 우리는 고수준의 모듈과 저수준의 모듈이 추상에 의존하고 있음을 볼 수 있습니다. Http 클래스(고수준의 모듈)은 Connection 인터페이스(추상)에 의존하고 있으며, Http 서비스 타입들(저수준의모듈)또한 Connection 인터페이스에 의존하고 있습니다.
 
-또한, 여기서 DIP는 Liskov Substitution Principle을 위반하지 않도록 합니다. (Connection 유형 Node-XML-MockHttpService는 상위 유형 Connection을 대체 할 수 있습니다.)
+또한, 여기서 DIP는 Liskov Substitution Principle을 위반하지 않도록 합니다. (Connection 유형 `Node-XML-MockHttpService`는 상위 유형 `Connection`을 대체 할 수 있습니다.)
 
 
 

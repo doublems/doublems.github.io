@@ -5,7 +5,7 @@ date:   2021-06-21 22:40:00
 author: Jay Ahn
 subtitle: 개발자와 소통하기
 description: 개발업무를 원활하게 하기 위한 C4모델의 사용과 협업이야기
-image: https://doublems.github.io/assets/postphoto/20210621/img.png
+image: https://doublems.github.io/assets/postphoto/20210621/img_12.png
 categories: Culture, DEx, Developer
 tags:   C4model Design Guide
 comments: true
